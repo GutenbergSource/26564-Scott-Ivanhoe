@@ -1,14 +1,12 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
 
-<!ENTITY florin CDATA "&#x0192;" -- Florin currency symbol (Netherlands) -->
-
-<!ENTITY Agr CDATA "A" -- Alpha -->
-<!ENTITY eegr CDATA "e" -- eta -->
-<!ENTITY ogr CDATA "o" -- omicron -->
-<!ENTITY lgr CDATA "l" -- lambda -->
-<!ENTITY ucirgr CDATA "u" -- upsilon -->
-<!ENTITY ohgr CDATA "o" -- omega -->
-<!ENTITY ngr CDATA "n" -- nu -->
+    <!ENTITY apos   CDATA "&#x2019;"  --     329 -->
+    <!ENTITY deg    CDATA "&#x00B0;"  --       4 -->
+    <!ENTITY ldquo  CDATA "&#x201C;"  --    3906 -->
+    <!ENTITY mdash  CDATA "&#x2014;"  --    1843 -->
+    <!ENTITY nbsp   CDATA "&#x00A0;"  --       9 -->
+    <!ENTITY ndash  CDATA "&#x2013;"  --       4 -->
+    <!ENTITY rdquo  CDATA "&#x201D;"  --    3898 -->
 
 ]>
 <TEI.2 lang=nl-1900>
@@ -33,11 +31,11 @@
 <availability lang=nl>
 <p>&availability.nl;
 
-<p>Dit eBoek is geproduceerd door Jeroen Hellingman en het on-line gedistribueerd correctieteam op <xref url="http://www.pgdp.net/">www.pgdp.net</xref>.
+<p>Dit eBoek is geproduceerd door Jeroen Hellingman en het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
 
 <p lang=en>&availability.en;
 
-<p lang=en>This eBook is produced by Jeroen Hellingman and the Online Distributed Proofreading Team at <xref url="http://www.pgdp.net/">www.pgdp.net</xref>.
+<p lang=en>This eBook is produced by Jeroen Hellingman and the Online Distributed Proofreading Team at <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
 
 </availability>
 </publicationStmt>
@@ -103,11 +101,13 @@
 
 
 <pb>
+<div1 id=titlepage type=TitlePage>
 
 
-<p><figure id=titlepage rend="image(images/titlepage.gif)">
+<p><figure id=titlepage-image rend="image(images/titlepage.png)">
 <figDesc>Oorspronkelijke titelpagina.</figDesc>
 </figure>
+
 
 <titlePage>
 <docImprint>Nieuwe Geïllustreerde Uitgave.</docImprint>
@@ -295,7 +295,7 @@
 </epigraph>
 
 
-<p rend="initial-width(102px) initial-height(102px) initial-image(images/ii011.gif)">In weerwil van het herhaalde vermanen en knorren van zijn makker, kon Wamba, die de ruiters hoorde naderen, niet nalaten bij ieder geschikt voorwendsel onderweg stil te staan; nu eens plukte hij van een hazelnotenstruik eenige der halfrijpe vruchten, dan keerde hij zich om, ten einde het een of ander boerenmeisje, dat hen tegenkwam, na te zien. De ruiters haalden hen derhalve spoedig in. Zij waren tien in getal van welken de beide voorsten mannen van aanzien, en de anderen hun volgelingen schenen te zijn. Het was niet moeielijk het karakter en den stand van één dezer mannen te onderscheiden. Hij was klaarblijkelijk een geestelijke van hoogen rang; zijne kleeding was die van een Cisterciënser monnik, maar uit veel fijner stof gemaakt, dan die, welke zijne orde gebruiken mocht. Mantel en kap waren van het beste Vlaamsche laken, en vielen in ruime en bevallige plooien rondom een schoone, hoewel eenigszins zwaarlijvige, gestalte. Zijn gelaat droeg evenmin den stempel van zelfverloochening, als zijn kleed minachting aanduidde van wereldsche pracht. Zijn trekken hadden mooi kunnen genoemd worden, had niet, onder zijne neerhangende oogleden, die gedempte, zinnelijke gloed geschitterd, welke den voorzichtigen wellusteling doet kennen. In andere opzichten hadden ambt en stand hem eene gemakkelijke heerschappij over <pb id=pb12 n=12>zijn gelaat geleerd, hetwelk hij naar welgevallen een plechtigen ernst kon doen aannemen, ofschoon zijne natuurlijke uitdrukking goedaardig, gezellig en toegevend was. Ten spijt van kloosterregels, en de bevelen van pausen en kerkvergaderingen, waren de mouwen van dezen prelaat gevoerd en omzet met rijk bont; zijn mantel was om den hals met een gouden gespje vastgemaakt, en de geheele kleeding, eigen aan zijne orde, evenzeer verfraaid en opgesierd, als die eener schoone kwakersvrouw van onze dagen, die de gewone kleederdracht van hare sekte behoudende, aan de eenvoudigheid daarvan, door de keus der stoffen en door de wijze van ze te schikken, een zekeren schijn van aanlokkelijke coquetterie geeft, welke maar al te veel van wereldsche ijdelheid getuigt.
+<p rend="initial-width(102px) initial-height(102px) initial-image(images/ii011.png)">In weerwil van het herhaalde vermanen en knorren van zijn makker, kon Wamba, die de ruiters hoorde naderen, niet nalaten bij ieder geschikt voorwendsel onderweg stil te staan; nu eens plukte hij van een hazelnotenstruik eenige der halfrijpe vruchten, dan keerde hij zich om, ten einde het een of ander boerenmeisje, dat hen tegenkwam, na te zien. De ruiters haalden hen derhalve spoedig in. Zij waren tien in getal van welken de beide voorsten mannen van aanzien, en de anderen hun volgelingen schenen te zijn. Het was niet moeielijk het karakter en den stand van één dezer mannen te onderscheiden. Hij was klaarblijkelijk een geestelijke van hoogen rang; zijne kleeding was die van een Cisterciënser monnik, maar uit veel fijner stof gemaakt, dan die, welke zijne orde gebruiken mocht. Mantel en kap waren van het beste Vlaamsche laken, en vielen in ruime en bevallige plooien rondom een schoone, hoewel eenigszins zwaarlijvige, gestalte. Zijn gelaat droeg evenmin den stempel van zelfverloochening, als zijn kleed minachting aanduidde van wereldsche pracht. Zijn trekken hadden mooi kunnen genoemd worden, had niet, onder zijne neerhangende oogleden, die gedempte, zinnelijke gloed geschitterd, welke den voorzichtigen wellusteling doet kennen. In andere opzichten hadden ambt en stand hem eene gemakkelijke heerschappij over <pb id=pb12 n=12>zijn gelaat geleerd, hetwelk hij naar welgevallen een plechtigen ernst kon doen aannemen, ofschoon zijne natuurlijke uitdrukking goedaardig, gezellig en toegevend was. Ten spijt van kloosterregels, en de bevelen van pausen en kerkvergaderingen, waren de mouwen van dezen prelaat gevoerd en omzet met rijk bont; zijn mantel was om den hals met een gouden gespje vastgemaakt, en de geheele kleeding, eigen aan zijne orde, evenzeer verfraaid en opgesierd, als die eener schoone kwakersvrouw van onze dagen, die de gewone kleederdracht van hare sekte behoudende, aan de eenvoudigheid daarvan, door de keus der stoffen en door de wijze van ze te schikken, een zekeren schijn van aanlokkelijke coquetterie geeft, welke maar al te veel van wereldsche ijdelheid getuigt.
 
 <p>Deze waardige dienaar der kerk reed op een makken, welgemesten muilezel, welks tuig zeer prachtig, en welks toom, volgens de gewoonte van dien tijd, met zilveren schelletjes versierd was. Hierop zat hij geenszins met de linkschheid van den kloosterbroeder, maar met al de gemakkelijke losheid van een geoefenden ruiter. Het scheen, inderdaad, dat een zoo nederig dier als een muilezel, hoe mooi ook en hoe goed gewend aan een aangenamen en gemakkelijken gang, door den dapperen monnik alleen op reis gebruikt werd; want een leekebroeder, die onder zijn gevolg was, leidde tot zijn gebruik bij andere gelegenheden een van de schoonste Andalusische hengsten, welke de kooplieden in dien tijd met groote moeite en veel gevaar, ten behoeve der rijken en aanzienlijken, overbrachten. De zadel en het tuig van dit prachtige rijpaard waren bedekt met een lange deken, die bijna op den grond hing, en waarop mijters, kruisen en andere kerkelijke sieraden prachtig geborduurd waren. Een ander leekebroeder leidde een tweeden gewonen muilezel, waarschijnlijk met het goed van zijn meester beladen; en daarachter reden twee monniken van dezelfde orde, maar van minderen rang, te zamen schertsende en pratende, zonder zich veel aan de andere leden van het reisgezelschap te storen.
 
@@ -451,7 +451,7 @@
 </epigraph>
 
 
-<p rend="initial-width(97px) initial-height(101px) initial-image(images/ii024.gif)">In eene zaal, wier hoogte volstrekt niet in evenredigheid was met haar buitengewone lengte en breedte, stond een lange, eikenhouten tafel, uit ruw behouwen planken gemaakt, die nauwelijks eenigszins afgeschaafd waren, gereed voor het avondmaal van Cedric den Sakser. Het dak, bestaande uit balken en dwarshouten, beschermde alleen door een laag planken en stroo dit vertrek voor de buitenlucht. Er was aan iedere zijde van de zaal een groote stookplaats; maar daar de schoorsteenen op zeer lompe wijze gebouwd waren, kwam er ten minste evenveel rook in het vertrek, als er uit. De gedurige damp, hierdoor veroorzaakt, had de dwarshouten en balken van de lage zaal met een zwart vernis van roet overtrokken. Langs de muren van de kamer hingen jacht- en krijgsgereedschappen en aan iederen hoek waren vleugeldeuren, welke toegang tot andere deelen van het uitgestrekte gebouw verleenden.
+<p rend="initial-width(97px) initial-height(101px) initial-image(images/ii024.png)">In eene zaal, wier hoogte volstrekt niet in evenredigheid was met haar buitengewone lengte en breedte, stond een lange, eikenhouten tafel, uit ruw behouwen planken gemaakt, die nauwelijks eenigszins afgeschaafd waren, gereed voor het avondmaal van Cedric den Sakser. Het dak, bestaande uit balken en dwarshouten, beschermde alleen door een laag planken en stroo dit vertrek voor de buitenlucht. Er was aan iedere zijde van de zaal een groote stookplaats; maar daar de schoorsteenen op zeer lompe wijze gebouwd waren, kwam er ten minste evenveel rook in het vertrek, als er uit. De gedurige damp, hierdoor veroorzaakt, had de dwarshouten en balken van de lage zaal met een zwart vernis van roet overtrokken. Langs de muren van de kamer hingen jacht- en krijgsgereedschappen en aan iederen hoek waren vleugeldeuren, welke toegang tot andere deelen van het uitgestrekte gebouw verleenden.
 
 <p>Het overige van het huis getuigde van de ruwe eenvoudigheid van den Saksentijd, die Cedric ijverig trachtte staande te houden. De vloer bestond uit aarde, met kalk vermengd, vast gestampt, evenals onze hedendaagsche dorschvloeren. Omtrent een vierde van de lengte van het vertrek was de vloer één voet verhoogd, en deze ruimte, welke men <hi>daïs</hi> noemde, werd alleen door de hoofdleden van het gezin en de aanzienlijke bezoekers betreden.
 
@@ -541,7 +541,7 @@
 </epigraph>
 
 
-<p rend="initial-offset(115px) initial-width(90px) initial-height(88px) initial-image(images/ip032.gif)">Prior Aymer had van de aangeboden gelegenheid gebruik gemaakt, om zijn rijkleed tegen een van nog kostbaarder stof te verwisselen, over hetwelk hij een schoon geborduurden priestermantel droeg. Behalve den grooten, gouden zegelring, welke zijn geestelijke waardigheid aanduidde, waren zijn vingers, ofschoon strijdig met de kerkelijke wet, met edelgesteenten versierd; zijn sandalen waren van het fijnste leder, dat uit Spanje ingevoerd werd; zijn baard was zoo kort gesneden, als de regels van zijn orde maar toelieten; en zijn geschoren kruin was verborgen onder een rijk scharlaken kapje.
+<p rend="initial-offset(115px) initial-width(90px) initial-height(88px) initial-image(images/ip032.png)">Prior Aymer had van de aangeboden gelegenheid gebruik gemaakt, om zijn rijkleed tegen een van nog kostbaarder stof te verwisselen, over hetwelk hij een schoon geborduurden priestermantel droeg. Behalve den grooten, gouden zegelring, welke zijn geestelijke waardigheid aanduidde, waren zijn vingers, ofschoon strijdig met de kerkelijke wet, met edelgesteenten versierd; zijn sandalen waren van het fijnste leder, dat uit Spanje ingevoerd werd; zijn baard was zoo kort gesneden, als de regels van zijn orde maar toelieten; en zijn geschoren kruin was verborgen onder een rijk scharlaken kapje.
 
 <p>De kleeding van den Tempelier had ook een verandering ondergaan, en, schoon met minder zorg versierd, was ze even rijk, en zijn voorkomen meer indrukwekkend, dan dat van zijn metgezel. Hij had zijn maliënkolder verwisseld tegen een onderkleed van donker purper zijde, met bont omzet, waarover zijn lang, vlekkeloos wit bovenkleed in ruime plooien hing. Het achthoekige kruis van zijn orde was op den schouder van zijn mantel in zwart fluweel opgelegd. De hooge muts bedekte <pb id=pb33 n=33>zijn voorhoofd niet meer, dat alleen door zijn kort, dik gekruld, pikzwart haar, dat overeenkwam met zijn buitengewoon donkere gelaatskleur, overschaduwd was. Niets zou de bevalligheid en deftigheid van zijn gang en zijn manieren overtroffen hebben, als deze niet ontsierd waren geweest door een in het <corr sic=oogvallenden>oog vallenden</corr> schijn van hoogmoed, die zoo licht verkregen wordt door het uitoefenen van onbeperkt gezag.
 
@@ -642,7 +642,7 @@
 <p>&ldquo;Laat hem binnen,&rdquo; zeide Cedric, &ldquo;wie hij ook zij;&mdash;een nacht, zooals die, welke buiten woedt, dwingt zelfs wilde dieren bij de tammen te schuilen, en bescherming te zoeken bij den mensch, hun vijand, liever dan door het geweld der elementen om te komen. Laat in al zijn behoeften voorzien&mdash;zorg gij er voor, Oswald!&rdquo; En de hofmeester verliet de eetzaal, om de bevelen van zijn meester te doen uitvoeren.
 
 
-<p><figure id=o041 rend="image(images/o041.gif)">
+<p><figure id=o041 rend="image(images/o041.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -661,7 +661,7 @@
 </epigraph>
 
 
-<p rend="initial-width(101px) initial-height(99px) initial-image(images/io042.gif)">Oswald fluisterde bij zijn terugkomst zijn meester in het oor: &ldquo;Het is een Jood, die zich Izaäk van York noemt; past het, dat wij hem in de zaal brengen?&rdquo;
+<p rend="initial-width(101px) initial-height(99px) initial-image(images/io042.png)">Oswald fluisterde bij zijn terugkomst zijn meester in het oor: &ldquo;Het is een Jood, die zich Izaäk van York noemt; past het, dat wij hem in de zaal brengen?&rdquo;
 
 <p>&ldquo;Laat Gurth uw ambt verrichten, Oswald,&rdquo; zei Wamba met zijn gewone stoutheid: &ldquo;de zwijnenhoeder is een geschikt geleider voor den Jood.&rdquo;
 
@@ -792,7 +792,7 @@
 <p>De Tempelier en de Prior werden kort daarna naar hun slaapvertrekken geleid door den huishofmeester en den schenker, ieder van twee fakkeldragers en twee bedienden met ververschingen vergezeld, terwijl mindere bedienden aan hun gevolg en aan de overige gasten de slaapplaatsen aanwezen.
 
 
-<p><figure id=o051 rend="image(images/o052.gif)">
+<p><figure id=o051 rend="image(images/o052.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -814,7 +814,7 @@
 </epigraph>
 
 
-<p rend="initial-width(99px) initial-height(101px) initial-image(images/it052.gif)">Terwijl de pelgrim, voorgelicht door een fakkeldrager, door de ineenloopende vertrekken van het groote en onregelmatige gebouw ging, kwam de schenker hem achterna, en fluisterde hem in het oor, dat, zoo hij er niet tegen had een beker in zijn kamer meê te drinken, er een groot aantal bedienden van het huis waren, die gaarne het nieuws wilden hooren, dat hij uit het Heilige Land had medegebracht, en voornamelijk dat, hetwelk den ridder van Ivanhoe betrof. Om het voorstel aannemelijker te maken, zeide Wamba dat één beker na middernacht zoo goed was, als drie na het avondklokje. Zonder eene stelling te betwisten, die op zulk gezag berustte, dankte de pelgrim voor hunne beleefdheid, maar merkte aan, dat hij bij zijne heilige gelofte de verplichting had op zich genomen, om nooit in de keuken van zaken te spreken, die in de zaal verboden waren. &ldquo;Die gelofte,&rdquo; zeide Wamba tot den schenker, &ldquo;zou een bediende slecht te pas komen.&rdquo;
+<p rend="initial-width(99px) initial-height(101px) initial-image(images/it052.png)">Terwijl de pelgrim, voorgelicht door een fakkeldrager, door de ineenloopende vertrekken van het groote en onregelmatige gebouw ging, kwam de schenker hem achterna, en fluisterde hem in het oor, dat, zoo hij er niet tegen had een beker in zijn kamer meê te drinken, er een groot aantal bedienden van het huis waren, die gaarne het nieuws wilden hooren, dat hij uit het Heilige Land had medegebracht, en voornamelijk dat, hetwelk den ridder van Ivanhoe betrof. Om het voorstel aannemelijker te maken, zeide Wamba dat één beker na middernacht zoo goed was, als drie na het avondklokje. Zonder eene stelling te betwisten, die op zulk gezag berustte, dankte de pelgrim voor hunne beleefdheid, maar merkte aan, dat hij bij zijne heilige gelofte de verplichting had op zich genomen, om nooit in de keuken van zaken te spreken, die in de zaal verboden waren. &ldquo;Die gelofte,&rdquo; zeide Wamba tot den schenker, &ldquo;zou een bediende slecht te pas komen.&rdquo;
 
 <p>De schenker haalde verdrietig de schouders op. &ldquo;Ik was van plan hem eene mooie kamer aan te wijzen,&rdquo; zeide hij: &ldquo;maar, daar hij zoo ongezellig jegens Christenen is, moet hij het eerste gat naast Izaäk den Jood maar innemen.&mdash;Anwold,&rdquo; zei hij tot den fakkeldrager, &ldquo;breng den pelgrim naar de zuider cel.&mdash;Ik wensch u goeden nacht,&rdquo; ging hij voort, &ldquo;heer pelgrim, met weinig dank voor uwe geringe beleefdheid!&rdquo;
 
@@ -1033,7 +1033,7 @@
 </epigraph>
 
 
-<p rend="initial-width(122px) initial-height(107px) initial-image(images/id066.gif)">De toestand van het Engelsche<note n=1>Walter Scott gebruikt dezen term enkel voor het gemak van zijn lezer.&mdash;t. B.</note> volk was in dit tijdperk vrij ellendig. Koning Richard was afwezig en gevangen, in de macht van den trouweloozen en wreeden Hertog van Oostenrijk. Zelfs was de plaats van zijn gevangenschap, evenals zijn lot, onbekend aan de meesten zijner onderdanen, die intusschen aan onderdrukkingen van allerlei aard ten prooi waren.
+<p rend="initial-width(122px) initial-height(107px) initial-image(images/id066.png)">De toestand van het Engelsche<note n=1>Walter Scott gebruikt dezen term enkel voor het gemak van zijn lezer.&mdash;t. B.</note> volk was in dit tijdperk vrij ellendig. Koning Richard was afwezig en gevangen, in de macht van den trouweloozen en wreeden Hertog van Oostenrijk. Zelfs was de plaats van zijn gevangenschap, evenals zijn lot, onbekend aan de meesten zijner onderdanen, die intusschen aan onderdrukkingen van allerlei aard ten prooi waren.
 
 <p>Prins Jan, in verbond met Filips van Frankrijk, Richard&apos;s doodvijand, gebruikte al zijn invloed bij den Hertog van Oostenrijk, om de gevangenschap van zijn broeder Richard, wien hij zooveel verschuldigd was, te verlengen. Intusschen versterkte hij zijn aanhang in het koninkrijk, waarvan hij de troonsopvolging, in geval van des konings dood, wilde betwisten aan den rechtmatigen erfgenaam, Arthur, Hertog van Bretagne, zoon van Geoffroi Plantagenet, zijn ouderen broeder. Deze overweldiging, gelijk bekend is, gelukte hem ook werkelijk op den duur. Daar zijn eigen karakter sluw, slecht en trouweloos was, verbond Jan gemakkelijk aan zijn persoon en aan <pb id=pb67 n=67>zijne partij niet alleen hen, die reden hadden Richard&apos;s toorn te vreezen, wegens hun gedrag in zijne afwezigheid; maar ook de talrijke dappere vrijbuiters, welke van de kruistochten in hun vaderland waren teruggekeerd, volleerd in de ondeugden van het Oosten, arm aan goederen, verhard van karakter, en die hunne hoop stelden op een nieuwen oogst in de burgerlijke onlusten.
 
@@ -1166,7 +1166,7 @@
 </epigraph>
 
 
-<p rend="initial-width(111px) initial-height(107px) initial-image(images/im080.gif)">Midden in zijn <corr sic=rid>rit</corr> hield Prins Jan op eens stil en, den Prior van Jorvaulx roepende, verklaarde hij, de voornaamste zaak van den dag verzuimd te hebben.
+<p rend="initial-width(111px) initial-height(107px) initial-image(images/im080.png)">Midden in zijn <corr sic=rid>rit</corr> hield Prins Jan op eens stil en, den Prior van Jorvaulx roepende, verklaarde hij, de voornaamste zaak van den dag verzuimd te hebben.
 
 <p>&ldquo;Zoo waar ik leef, Prior!&rdquo; zeide hij, &ldquo;wij hebben vergeten de Koningin der Liefde en Schoonheid te benoemen, door wier blanke hand de prijs der overwinning moet uitgedeeld worden. Wat mij betreft, ik ben niet bekrompen in mijne wijze van denken, en maak geene zwarigheid mijn stem aan de zwart-oogige Rebekka te geven.&rdquo;
 
@@ -1312,7 +1312,7 @@
 <p>Het vreugdegeschreeuw van duizenden juichte de eenstemmige verklaring van den Prins en de maarschalken toe, die de eer van den dag aan den Onterfden Ridder toekenden.
 
 
-<p><figure id=p092 rend="image(images/o092.gif)">
+<p><figure id=p092 rend="image(images/o092.png)">
 <figDesc>Ornament</figDesc>
 </figure>
 
@@ -1342,7 +1342,7 @@
 </epigraph>
 
 
-<p rend="initial-width(100px) initial-height(104px) initial-image(images/iw093.gif)">William de Wyvil en Steven de Martival, de maarschalken, brachten het eerst den overwinnaar hunne gelukwenschen, en verzochten hem tevens zijn helm te laten losmaken, of ten minste zijn vizier te openen, voordat zij hem naar Prins Jan geleidden, om uit diens handen den prijs voor dezen dag van het toernooi te ontvangen.
+<p rend="initial-width(100px) initial-height(104px) initial-image(images/iw093.png)">William de Wyvil en Steven de Martival, de maarschalken, brachten het eerst den overwinnaar hunne gelukwenschen, en verzochten hem tevens zijn helm te laten losmaken, of ten minste zijn vizier te openen, voordat zij hem naar Prins Jan geleidden, om uit diens handen den prijs voor dezen dag van het toernooi te ontvangen.
 
 <p>De Onterfde Ridder weigerde aan hun verzoek te voldoen, terwijl hij met ridderlijke beleefdheid te kennen gaf, dat hij voor het oogenblik zijn gezicht niet kon laten zien, om redenen, die hij aan de herauten, bij zijn verschijning in het strijdperk, opgegeven had. De maarschalken waren volkomen tevreden met dit antwoord; want onder de grillige geloften, waardoor de ridders in die tijden gewoon waren zich te verbinden, was er geen meer algemeen dan die, om onbekend te blijven gedurende een zekeren tijd, of tot het einde van het een of ander avontuur. De maarschalken drongen dus niet verder in het geheim van den Onterfden Ridder; maar aan Prins Jan het verlangen van den overwinnaar, om onbekend te blijven, mededeelende, verzochten zij verlof, hem voor zijn Hoogheid te mogen brengen, ten einde de belooning zijner dapperheid te ontvangen.
 
@@ -1473,7 +1473,7 @@
 </epigraph>
 
 
-<p rend="initial-width(122px) initial-height(108px) initial-image(images/id102.gif)">De Onterfde Ridder had nauwelijks zijne tent bereikt, of eene menigte schildknapen en pages boden hun dienst aan, om hem te ontwapenen, versche kleederen te brengen, en de verkwikking van een bad te verschaffen. Hun ijver bij deze gelegenheid werd misschien aangevuurd door nieuwsgierigheid, daar ieder wenschte te weten, wie de ridder was, die zoo vele lauweren geplukt, en toch geweigerd had, zelfs op verzoek van Prins Jan, zijn vizier te openen, of zijn naam te noemen. Maar aan hun dienstvaardige nieuwsgierigheid werd niet voldaan. De Onterfde Ridder weigerde iedere andere hulp, dan die van zijn eigen schildknaap, of liever dienstbare, een man van een boersch uitzicht, die gewikkeld in een mantel van donkerkleurig vilt, en zijn gezicht en hoofd half begraven in een Normandische muts van zwart bont, even onbekend scheen te willen blijven als zijn meester. Alle anderen uit de tent verwijderd zijnde, bevrijdde deze dienaar zijn heer van de zwaardere deelen zijner wapenrusting, en zette hem voedsel en wijn voor, welke de uitgestane vermoeienissen van den dag zeer gewenscht maakten.
+<p rend="initial-width(122px) initial-height(108px) initial-image(images/id102.png)">De Onterfde Ridder had nauwelijks zijne tent bereikt, of eene menigte schildknapen en pages boden hun dienst aan, om hem te ontwapenen, versche kleederen te brengen, en de verkwikking van een bad te verschaffen. Hun ijver bij deze gelegenheid werd misschien aangevuurd door nieuwsgierigheid, daar ieder wenschte te weten, wie de ridder was, die zoo vele lauweren geplukt, en toch geweigerd had, zelfs op verzoek van Prins Jan, zijn vizier te openen, of zijn naam te noemen. Maar aan hun dienstvaardige nieuwsgierigheid werd niet voldaan. De Onterfde Ridder weigerde iedere andere hulp, dan die van zijn eigen schildknaap, of liever dienstbare, een man van een boersch uitzicht, die gewikkeld in een mantel van donkerkleurig vilt, en zijn gezicht en hoofd half begraven in een Normandische muts van zwart bont, even onbekend scheen te willen blijven als zijn meester. Alle anderen uit de tent verwijderd zijnde, bevrijdde deze dienaar zijn heer van de zwaardere deelen zijner wapenrusting, en zette hem voedsel en wijn voor, welke de uitgestane vermoeienissen van den dag zeer gewenscht maakten.
 
 <p>Hij had nauwelijks een haastigen maaltijd geëindigd, of zijn bediende kondigde hem aan, dat vijf mannen, ieder een opgetoomd paard leidende, hem wenschten te spreken. De Onterfde Ridder had <pb id=pb103 n=103>zijn wapenrusting verwisseld tegen het lange gewaad, dat lieden van zijn stand gewoonlijk droegen. Daar het <corr sic=met>van</corr> een kap voorzien was, verborg het de gelaatstrekken, wanneer men zulks verkoos, bijna even goed, als het vizier van den helm zelf, maar het schemerlicht, dat nu sterk begon te vallen, zou reeds een vermomming onnoodig gemaakt hebben, behalve voor hen, die zijn gezicht bijzonder goed kenden.
 
@@ -1654,7 +1654,7 @@
 </epigraph>
 
 
-<p rend="initial-width(104px) initial-height(103px) initial-image(images/ig113.gif)">Gurt&apos;s nachtelijke avonturen waren nog niet ten einde; deze gedachte kwam bij hem zelf op, toen hij zich, na tusschen een paar eenzame huizen, die aan het einde van het dorp lagen, te zijn doorgegaan, in een diepen, hollen weg bevond, die tusschen twee dijken doorliep, welke met hulst en hazelstruiken bezet waren, terwijl hier en daar een dwergeik zijn takken geheel over het pad uitstrekte. De weg was daarenboven bedorven door de wagens, die nog niet lang geleden allerhande behoeften voor het toernooi hadden aangebracht, en het was donker, want de dijken en struiken onderschepten het licht van de schoone najaars-maan.
+<p rend="initial-width(104px) initial-height(103px) initial-image(images/ig113.png)">Gurt&apos;s nachtelijke avonturen waren nog niet ten einde; deze gedachte kwam bij hem zelf op, toen hij zich, na tusschen een paar eenzame huizen, die aan het einde van het dorp lagen, te zijn doorgegaan, in een diepen, hollen weg bevond, die tusschen twee dijken doorliep, welke met hulst en hazelstruiken bezet waren, terwijl hier en daar een dwergeik zijn takken geheel over het pad uitstrekte. De weg was daarenboven bedorven door de wagens, die nog niet lang geleden allerhande behoeften voor het toernooi hadden aangebracht, en het was donker, want de dijken en struiken onderschepten het licht van de schoone najaars-maan.
 
 <p>Uit het dorp hoorde men het verwijderde geluid der uitgelatenste vroolijkheid, soms met gelach vermengd, soms door een gil afgebroken, en dan weer door wilde muziek afgewisseld. Al deze klanken, welke van de ongeregeldheid in de stad getuigden, die opgevuld was met de krijgshaftige edelen en hun losbandig gevolg, verwekten eenige ongerustheid bij Gurth. &ldquo;De Jodin had gelijk,&rdquo; zei hij bij zich zelven. &ldquo;Bij den Hemel en St. Dunstan, ik wenschte, dat ik de reis met mijn schat veilig achter den rug had! Hier zijn zoo vele, ik wil niet zeggen <pb id=pb114 n=114>zwervende dieven, maar zwervende ridders en knapen, zwervende monniken en minnezangers, zwervende goochelaars en potsenmakers, dat een mensch met een enkele mark op zak, in gevaar zou zijn,&mdash;hoeveel meer dus een arme zwijnenhoeder met een geheele beurs vol <hi>zechinen</hi>; was ik maar eerst uit de schaduw van die verwenschte struiken, dan kon ik tenminste de volgelingen van St. Nikolaas<note n=1>Een oude volksnaam voor de struikroovers.<corr>&mdash;</corr>M. P. L.</note> zien, eer ze mij op den hals vallen.&rdquo;
 
@@ -1785,7 +1785,7 @@
 <p>De ridder legde zich dus op een zacht bed, waarmede de tent voorzien was, neder, en de getrouwe Gurth strekte zijn verharde leden op een berenvel, dat tot kleed op den grond diende, uit, dwars voor de opening van de tent, zoodat niemand binnenkomen kon, zonder hem wakker te maken.
 
 
-<p><figure id=o120 rend="image(images/o120.gif)">
+<p><figure id=o120 rend="image(images/o120.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -1815,7 +1815,7 @@
 </epigraph>
 
 
-<p rend="initial-width(117px) initial-height(116px) initial-image(images/id121.gif)">De morgen daagde in onbewolkte helderheid op, en eer de zon ver boven den gezichteinder verscheen, zag men de traagsten, of ijverigsten der toeschouwers op weg naar het strijdperk, om zich eene gunstige plaats te verschaffen, bij de verwachte spelen.
+<p rend="initial-width(117px) initial-height(116px) initial-image(images/id121.png)">De morgen daagde in onbewolkte helderheid op, en eer de zon ver boven den gezichteinder verscheen, zag men de traagsten, of ijverigsten der toeschouwers op weg naar het strijdperk, om zich eene gunstige plaats te verschaffen, bij de verwachte spelen.
 
 <p>De maarschalken en hunne volgelingen verschenen ook op het veld, tegelijk met de herauten, om de namen van de ridders op te teekenen, die begeerden mede te strijden, zoowel als de partij, welke zij wenschten te kiezen. Dit was een noodzakelijke voorzorg, om eenige gelijkheid te bewaren tusschen de twee afdeelingen, die tegen elkander strijden zouden.
 
@@ -1933,7 +1933,7 @@
 </epigraph>
 
 
-<p rend="initial-width(107px) initial-height(107px) initial-image(images/in134.gif)">Nauwelijks was de naam van Ivanhoe uitgesproken, of hij vloog van mond tot mond met al de snelheid, welke belangstelling, door de nieuwsgierigheid geprikkeld, er aan geven kon. Het duurde ook niet lang, eer deze tijding den kring van den Prins bereikte, wiens gelaat bij dit nieuws eene sombere uitdrukking aannam. Hij zag intusschen spotachtig rond, en zeide: &ldquo;Wel, mijn heeren, en gij vooral, heer Prior, wat denkt gij van de leer der geleerden over de sympathie en antipathie? Mij dunkt ik bespeurde de tegenwoordigheid van den gunsteling mijns broeders, zelfs eer ik nog gissen kon, wie onder die wapenrusting schuilde.&rdquo;
+<p rend="initial-width(107px) initial-height(107px) initial-image(images/in134.png)">Nauwelijks was de naam van Ivanhoe uitgesproken, of hij vloog van mond tot mond met al de snelheid, welke belangstelling, door de nieuwsgierigheid geprikkeld, er aan geven kon. Het duurde ook niet lang, eer deze tijding den kring van den Prins bereikte, wiens gelaat bij dit nieuws eene sombere uitdrukking aannam. Hij zag intusschen spotachtig rond, en zeide: &ldquo;Wel, mijn heeren, en gij vooral, heer Prior, wat denkt gij van de leer der geleerden over de sympathie en antipathie? Mij dunkt ik bespeurde de tegenwoordigheid van den gunsteling mijns broeders, zelfs eer ik nog gissen kon, wie onder die wapenrusting schuilde.&rdquo;
 
 <p>&ldquo;Front-de-Boeuf moet zich gereed maken, zijn leengoed aan Ivanhoe terug te geven,&rdquo; zei De Bracy, die, na een eervol deel aan het toernooi te hebben genomen, schild en helm afgelegd, en zich weder onder het gevolg van den Prins gemengd had.
 
@@ -2118,7 +2118,7 @@
 </epigraph>
 
 
-<p rend="initial-offset(115px) initial-width(90px) initial-height(88px) initial-image(images/ip146.gif)">Prins Jan hield zijn feestelijken maaltijd in het kasteel van Ashby. Dit was niet hetzelfde gebouw, welks trotsche puinhoopen den reiziger nog belang inboezemen, en dat in lateren tijd werd opgericht door Lord Hastings, Groot Kamerheer van Engeland, een der eerste slachtoffers van de dwingelandij van Richard&nbsp;III, en nog beter bekend als een van Shakespeare&apos;s personaadjes, dan door zijn naam in de geschiedenis. Het kasteel en de stad Ashby behoorden in dien tijd aan Roger de Quincy, Graaf van Winchester, die, gedurende den tijd van ons verhaal, in het Heilige land toefde. Prins Jan had intusschen bezit van zijn kasteel genomen, en beschikte naar goedvinden over zijn goederen; en daar hij thans<corr sic=","></corr> de oogen der wereld door zijne gastvrijheid en pracht trachtte te verblinden, had hij bevel gegeven tot groote toebereidselen, om het feest zoo schitterend mogelijk te maken.
+<p rend="initial-offset(115px) initial-width(90px) initial-height(88px) initial-image(images/ip146.png)">Prins Jan hield zijn feestelijken maaltijd in het kasteel van Ashby. Dit was niet hetzelfde gebouw, welks trotsche puinhoopen den reiziger nog belang inboezemen, en dat in lateren tijd werd opgericht door Lord Hastings, Groot Kamerheer van Engeland, een der eerste slachtoffers van de dwingelandij van Richard&nbsp;III, en nog beter bekend als een van Shakespeare&apos;s personaadjes, dan door zijn naam in de geschiedenis. Het kasteel en de stad Ashby behoorden in dien tijd aan Roger de Quincy, Graaf van Winchester, die, gedurende den tijd van ons verhaal, in het Heilige land toefde. Prins Jan had intusschen bezit van zijn kasteel genomen, en beschikte naar goedvinden over zijn goederen; en daar hij thans<corr sic=","></corr> de oogen der wereld door zijne gastvrijheid en pracht trachtte te verblinden, had hij bevel gegeven tot groote toebereidselen, om het feest zoo schitterend mogelijk te maken.
 
 <p>De Hoffouriers van den Prins, die bij deze en andere gelegenheden het volle koninklijke gezag uitoefenden, hadden al, wat zij voor de tafel van hun meester geschikt oordeelden, uit de omstreken geroofd. Er was ook een groote menigte gasten genoodigd; en Prins Jan, zich in de noodzakelijkheid bevindende, om de volksgunst te zoeken, had <pb id=pb147 n=147>deze uitnoodigingen tot eenige aanzienlijke Saksische en Deensche familiën uitgestrekt, zoowel als tot de Normandische edelen en heeren uit den omtrek. Hoewel de Angel-Saksers bij gewone gelegenheden veracht en vernederd werden, moest hun groot getal hen natuurlijk geducht maken in de burgerlijke onlusten, die ophanden schenen, en het was noodzakelijk, om de gunst van de voornaamsten onder hen te verwerven.
 
@@ -2255,7 +2255,7 @@
 </epigraph>
 
 
-<p rend="initial-width(105px) initial-height(104px) initial-image(images/ig156.gif)">Geen spin herstelde ooit met meer zorg de beschadigde draden van haar web, dan Waldemar Fitzurse besteedde, om de verstrooide leden der partij van Prins Jan te verzamelen, en weder onderling te verbinden. Weinigen waren hem uit genegenheid, en geene uit persoonlijke gehechtheid toegedaan. Het was daarom noodig, dat Fitzurse hun nieuwe, voordeelige uitzichten opende, en hen aan de voordeelen herinnerde, welke zij thans genoten. Den jongen, onbezonnen edellieden schilderde hij het vooruitzicht op ongestrafte losbandigheid en op onbeperkt zinnelijk genot; de eerzuchtigen wees hij op gezag, en de gierigen op vermeerdering hunner rijkdommen en de uitbreiding hunner bezittingen. De hoofden der huurlingen ontvingen een geschenk in goud, het beste overtuigingsmiddel voor hun verstand,&mdash;daar al het overige vruchteloos zoude geweest zijn. Beloften werden door dezen werkzamen agent met eene nog mildere hand uitgedeeld dan geld; in het kort, niets werd verzuimd, dat dienen kon, om den weifelende tot een besluit te brengen, en den lafhartige te bemoedigen. Over de terugkomst van Koning Richard sprak hij als eene gebeurtenis, die geheel buiten de perken der waarschijnlijkheid lag, bespeurde hij echter, uit de twijfelende blikken, en de onzekere antwoorden, die hij ontving, dat voornamelijk deze terugkeer de gemoederen zijner medeplichtigen verontrustte, dan behandelde hij die als eene gebeurtenis, die, wanneer zij werkelijk mocht plaats vinden, hunne staatkundige plannen niet behoorde te veranderen.
+<p rend="initial-width(105px) initial-height(104px) initial-image(images/ig156.png)">Geen spin herstelde ooit met meer zorg de beschadigde draden van haar web, dan Waldemar Fitzurse besteedde, om de verstrooide leden der partij van Prins Jan te verzamelen, en weder onderling te verbinden. Weinigen waren hem uit genegenheid, en geene uit persoonlijke gehechtheid toegedaan. Het was daarom noodig, dat Fitzurse hun nieuwe, voordeelige uitzichten opende, en hen aan de voordeelen herinnerde, welke zij thans genoten. Den jongen, onbezonnen edellieden schilderde hij het vooruitzicht op ongestrafte losbandigheid en op onbeperkt zinnelijk genot; de eerzuchtigen wees hij op gezag, en de gierigen op vermeerdering hunner rijkdommen en de uitbreiding hunner bezittingen. De hoofden der huurlingen ontvingen een geschenk in goud, het beste overtuigingsmiddel voor hun verstand,&mdash;daar al het overige vruchteloos zoude geweest zijn. Beloften werden door dezen werkzamen agent met eene nog mildere hand uitgedeeld dan geld; in het kort, niets werd verzuimd, dat dienen kon, om den weifelende tot een besluit te brengen, en den lafhartige te bemoedigen. Over de terugkomst van Koning Richard sprak hij als eene gebeurtenis, die geheel buiten de perken der waarschijnlijkheid lag, bespeurde hij echter, uit de twijfelende blikken, en de onzekere antwoorden, die hij ontving, dat voornamelijk deze terugkeer de gemoederen zijner medeplichtigen verontrustte, dan behandelde hij die als eene gebeurtenis, die, wanneer zij werkelijk mocht plaats vinden, hunne staatkundige plannen niet behoorde te veranderen.
 
 <pb id=pb157 n=157><p>&ldquo;Indien Richard terugkeert,&rdquo; zeide Fitzurse, &ldquo;dan is het om zijn behoeftige en bij den kruistocht verarmde metgezellen te verrijken, ten koste van diegenen, die hem niet gevolgd zijn naar het Heilige Land. Hij keert terug, om eene schrikkelijke rekenschap te vorderen van hen, die gedurende zijne afwezigheid iets gedaan hebben, dat als eene schennis der wetten, of eene inbreuk op de voorrechten der kroon, kan worden aangemerkt. Hij keert terug, om zich te wreken op de orde der Tempelieren en der Hospitaalridders, wegens de voorkeur, welke zij, gedurende de oorlogen in het Heilige Land, aan Filips van Frankrijk betoond hebben. Hij keert eindelijk terug, om alle aanhangers van zijn broeder, Prins Jan, als oproerlingen te straffen. Vreest gij zijne macht?&rdquo; ging de sluwe vertrouweling van dezen Prins voort. &ldquo;Wij stemmen toe, dat hij een sterk en dapper ridder is; maar wij zijn niet in de dagen van Koning Arthur, toen één kampvechter tegen een heel leger kon strijden. Als Richard werkelijk terugkeert, moet hij alléén komen, zonder gevolg,&mdash;zonder vrienden. De beenderen van zijn dapper leger zijn op de zandwoestijnen van Palestina gebleekt. De weinigen van zijn gevolg, die teruggekeerd zijn, zijn herwaarts gedwaald,&mdash;zooals deze Wilfrid van Ivanhoe,&mdash;als bedelaars en landloopers. En wat spreekt gij van Richards geboorterecht?&rdquo; ging hij voort, tegen degenen, die zwarigheden over dit punt inbrachten. &ldquo;Is Richards recht van eerstgeboorte zekerder dan dat van Hertog Robert van Normandië, des Veroveraars oudsten zoon? En echter werden Willem de Roodharige en Hendrik de Tweede, en Derde, zijne broeders, hem achtereenvolgens, door de stem des volks voorgetrokken; Robert bezat iedere verdienste, die voor Richard pleit; hij was een dapper ridder, een goed veldheer, edelmoedig jegens zijne vrienden en de kerk, en om het geheel te kroonen, een kruisvaarder en veroveraar van het Heilige Graf; en toch stierf hij, als een blinde en ellendige gevangene, in het kasteel van Cardiff, omdat hij zich tegen den wil des volks aankantte, dat niet door hem wilde beheerscht worden. Wij hebben het recht,&rdquo; voer hij voort, &ldquo;uit het koninklijk geslacht dien Vorst te kiezen, die het best in staat is, het hoogste gezag te bekleeden:&mdash;dat is,&rdquo; zei hij, zijn woorden verbeterende, &ldquo;wiens verkiezing de belangen der edelen het best bevordert. In persoonlijke hoedanigheden,&rdquo; vervolgde hij, &ldquo;doet misschien Prins Jan voor zijn broeder onder; maar wanneer men bedenkt, dat deze, met het zwaard der wraak in handen terugkeert, terwijl gene, belooningen, vrijheden, voorrechten, rijkdom en eer aanbiedt, dan is het niet twijfelachtig, welken koning, de adel, als deze verstandig handelt, geroepen is te ondersteunen!&rdquo;
 
@@ -2314,7 +2314,7 @@
 <p>Hier werden de overdenkingen van den staatsman afgebroken door de stem van Prins Jan, die uit een binnenvertrek riep: &ldquo;Edele Waldemar Fitzurse, kom bij mij!&rdquo; en het hoofd ontblootende, haastte zich de aanstaande Grootkanselier (want op dezen hoogen post hoopte de sluwe Normandiër), om de bevelen van zijn aanstaanden koning te gaan vernemen.
 
 
-<p><figure id=o161 rend="image(images/o052.gif)">
+<p><figure id=o161 rend="image(images/o052.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -2340,7 +2340,7 @@
 </epigraph>
 
 
-<p rend="initial-width(124px) initial-height(108px) initial-image(images/id162.gif)">De lezer zal niet vergeten hebben, dat de uitkomst van het toernooi beslist werd door de heldendaden van een onbekenden ridder, dien de toeschouwers, wegens het lijdelijke en onverschillige van zijn gedrag, gedurende het eerste gedeelte van den dag, met den naam van <hi lang=fr>Le Noir Fainéant</hi> bestempeld hadden. Deze ridder had het strijdperk verlaten, zoodra de overwinning behaald was; en toen hij opgeroepen werd, om het loon zijner dapperheid te ontvangen, was hij nergens te vinden. Terwijl hij door de herauten en trompetters ingedaagd werd, richtte hij zijn koers noordwaarts, alle begane paden vermijdende, en den kortsten weg door de boschlanden nemende. Hij rustte des nachts in een kleine herberg op eenigen afstand van den straatweg, waar hij echter, van een rondtrekkenden speelman, tijding kreeg van den afloop van het toernooi.
+<p rend="initial-width(124px) initial-height(108px) initial-image(images/id162.png)">De lezer zal niet vergeten hebben, dat de uitkomst van het toernooi beslist werd door de heldendaden van een onbekenden ridder, dien de toeschouwers, wegens het lijdelijke en onverschillige van zijn gedrag, gedurende het eerste gedeelte van den dag, met den naam van <hi lang=fr>Le Noir Fainéant</hi> bestempeld hadden. Deze ridder had het strijdperk verlaten, zoodra de overwinning behaald was; en toen hij opgeroepen werd, om het loon zijner dapperheid te ontvangen, was hij nergens te vinden. Terwijl hij door de herauten en trompetters ingedaagd werd, richtte hij zijn koers noordwaarts, alle begane paden vermijdende, en den kortsten weg door de boschlanden nemende. Hij rustte des nachts in een kleine herberg op eenigen afstand van den straatweg, waar hij echter, van een rondtrekkenden speelman, tijding kreeg van den afloop van het toernooi.
 
 <p>Den volgenden morgen vertrok de ridder vroegtijdig, met het voornemen om eene groote dagreis te maken, daar zijn paard, dat hij den vorigen morgen zorgvuldig gespaard had, in staat was, een langen tocht te doen, zonder veel te rusten. Zijn voornemen werd echter verijdeld door de onbekende wegen, die hij nam; zoodat, toen de avond hem overviel, hij zich slechts op de grenzen van het <hi>West-Riding</hi> van Yorkshire bevond. Nu hadden man en paard behoefte aan verkwikking, en het was bovendien, noodig naar een plaats uit te zien, om den snel naderenden nacht door te brengen.
 
@@ -2516,7 +2516,7 @@
 </epigraph>
 
 
-<p rend="initial-width(107px) initial-height(107px) initial-image(images/in174.gif)">Niettegenstaande het voorschrift van den vroolijken kluizenaar, waarmede zijn gast van harte instemde, vond deze het geen gemakkelijke taak, om de harp te stemmen.
+<p rend="initial-width(107px) initial-height(107px) initial-image(images/in174.png)">Niettegenstaande het voorschrift van den vroolijken kluizenaar, waarmede zijn gast van harte instemde, vond deze het geen gemakkelijke taak, om de harp te stemmen.
 
 <p>&ldquo;Het komt mij voor, eerwaarde vader,&rdquo; zei hij, &ldquo;dat er ééne snaar aan het instrument ontbreekt, en dat de overigen eenigszins bedorven zijn door een slecht spel.&rdquo;
 
@@ -2678,7 +2678,7 @@
 <p>De oorzaak dezer stoornis kunnen wij niet anders verklaren, dan door het verhaal der lotgevallen van eenige andere onzer personaadjes weder op te vatten; want wij stellen er geen eer in, evenmin als de oude Ariosto, om steeds dezelfde personen van ons drama gezelschap te houden.
 
 
-<p><figure id=o179 rend="image(images/o179.gif)">
+<p><figure id=o179 rend="image(images/o179.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -2706,7 +2706,7 @@
 </epigraph>
 
 
-<p rend="initial-width(99px) initial-height(101px) initial-image(images/it180.gif)">Toen Cedric de Sakser zijn zoon bewusteloos in het strijdperk te Ashby zag nedervallen, was zijn eerste natuurlijke opwelling, hem der oppassing en zorg zijner bedienden aan te bevelen; maar de woorden bleven hem in de keel. Hij kon er niet toe besluiten, om in tegenwoordigheid van zulk gezelschap, zijn zoon, dien hij verstooten en onterfd had, weder aan te nemen. Echter beval hij Oswald hem in het oog te houden en zond den schenker met twee zijner lijfeigenen om Ivanhoe naar Ashby te brengen, zoodra de menigte verstrooid zou zijn. Maar iemand anders was Oswald in deze zorg voor geweest. De menigte ging wel uiteen; maar de ridder was nergens te zien.
+<p rend="initial-width(99px) initial-height(101px) initial-image(images/it180.png)">Toen Cedric de Sakser zijn zoon bewusteloos in het strijdperk te Ashby zag nedervallen, was zijn eerste natuurlijke opwelling, hem der oppassing en zorg zijner bedienden aan te bevelen; maar de woorden bleven hem in de keel. Hij kon er niet toe besluiten, om in tegenwoordigheid van zulk gezelschap, zijn zoon, dien hij verstooten en onterfd had, weder aan te nemen. Echter beval hij Oswald hem in het oog te houden en zond den schenker met twee zijner lijfeigenen om Ivanhoe naar Ashby te brengen, zoodra de menigte verstrooid zou zijn. Maar iemand anders was Oswald in deze zorg voor geweest. De menigte ging wel uiteen; maar de ridder was nergens te zien.
 
 <p>Te vergeefs zocht Cedric&apos;s schenker naar zijn jongen meester:&mdash;hij zag de bebloede plek, waar hij kort te voren was nedergezonken, maar hij zelf was niet meer te vinden; het was alsof men hem door tooverij had weggevoerd. Misschien zou Oswald zoo iets verondersteld hebben (want de Saksers waren zeer bijgeloovig), om Ivanhoe&apos;s verdwijning te verklaren, ware niet plotseling zijn oog gevallen op iemand, in de kleeding van een schildknaap, in wien hij weldra zijn dienstmakker Gurth herkende. Vol zorg over het lot van zijn meester, en wanhopig over zijne plotselinge verdwijning, zocht hem <pb id=pb181 n=181>de vermomde zwijnenhoeder overal, en had dus de geheimhouding van zijne rol, waaraan zijn eigene veiligheid afhing, uit het oog verloren. Oswald achtte het zijn plicht Gurth in verzekerde bewaring te nemen, als een vluchteling, over wiens lot zijn meester beslissen moest.
 
@@ -2812,7 +2812,7 @@
 </epigraph>
 
 
-<p rend="initial-width(116px) initial-height(116px) initial-image(images/id189.gif)">De reizigers hadden nu de grenzen van het woud bereikt, en waren op het punt zich in het dichtste gedeelte er van te begeven, dat op dien tijd voor gevaarlijk gehouden werd wegens het groote aantal vrijbuiters, welke onderdrukking en armoede tot wanhoop gedreven hadden, en die de bosschen in zulke groote benden bezetten, dat zij gemakkelijk de zwakke rustbewaarders van die dagen konden trotseeren. Tegen deze roovers echter rekenden Cedric en Athelstane zich bestand, in weerwil van het late uur, daar zij tien bedienden in hun gevolg hadden, behalve Wamba en Gurth, op wier hulp men geen staat kon maken, daar de één een nar en de andere een gevangene was. Men kan er bijvoegen, dat, zoo laat door het woud reizende, Cedric en Athelstane niet minder op hunne afkomst en hun naam steunden, dan op hun moed. De vogelvrij-verklaarden, die de gestrengheid der jachtwetten tot dit wanhopige rooversleven gebracht had, waren voornamelijk boeren en pachters van Saksischen stam, en men geloofde in het algemeen, dat zij de personen en het eigendom hunner landslieden eerbiedigden.
+<p rend="initial-width(116px) initial-height(116px) initial-image(images/id189.png)">De reizigers hadden nu de grenzen van het woud bereikt, en waren op het punt zich in het dichtste gedeelte er van te begeven, dat op dien tijd voor gevaarlijk gehouden werd wegens het groote aantal vrijbuiters, welke onderdrukking en armoede tot wanhoop gedreven hadden, en die de bosschen in zulke groote benden bezetten, dat zij gemakkelijk de zwakke rustbewaarders van die dagen konden trotseeren. Tegen deze roovers echter rekenden Cedric en Athelstane zich bestand, in weerwil van het late uur, daar zij tien bedienden in hun gevolg hadden, behalve Wamba en Gurth, op wier hulp men geen staat kon maken, daar de één een nar en de andere een gevangene was. Men kan er bijvoegen, dat, zoo laat door het woud reizende, Cedric en Athelstane niet minder op hunne afkomst en hun naam steunden, dan op hun moed. De vogelvrij-verklaarden, die de gestrengheid der jachtwetten tot dit wanhopige rooversleven gebracht had, waren voornamelijk boeren en pachters van Saksischen stam, en men geloofde in het algemeen, dat zij de personen en het eigendom hunner landslieden eerbiedigden.
 
 <p>Terwijl de reizigers hun weg voortzetten, werden zij door een herhaald geroep om hulp verschrikt; en naar de plaats rijdende, van waar het kwam, zagen zij, tot hunne verbazing, een draagkoets op den grond staan, waarnaast een jong meisje zat, dat rijk, op Joodsche <pb id=pb190 n=190>wijze gekleed was, terwijl een oud man, wiens gele muts aanduidde, dat hij tot dezelfde natie behoorde, op en neder ging, met gebaren van de grootste wanhoop, en de handen wrong, alsof hem een groot ongeluk was overkomen.
 
@@ -2913,7 +2913,7 @@
 <p>&ldquo;Stil,&rdquo; zei Gurth; &ldquo;wees stil; beleedig hem niet door uw gekheden, en ik vertrouw er vast op, dat alles goed zal gaan.&rdquo;
 
 
-<p><figure id=o196 rend="image(images/o196.gif)">
+<p><figure id=o196 rend="image(images/o196.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -2943,7 +2943,7 @@
 </epigraph>
 
 
-<p rend="initial-width(104px) initial-height(103px) initial-image(images/ie197.gif)">Eerst na drie uren wandelens was het, dat de volgelingen van Cedric, met hun geheimzinnigen leidsman, eene kleine opening in het woud bereikten, in wier midden een eik van ontzachelijke grootte groeide, welke de kromme takken naar alle kanten uitspreidde. Onder dezen boom lagen vier of vijf schutters op den grond uitgestrekt, terwijl een ander, als schildwacht, in den maneschijn heen en weder ging. Zoodra deze de naderende voetstappen hoorde, gaf hij een teeken, en de slapers sprongen dadelijk op en spanden hun bogen. Zes pijlen werden gericht naar den kant, van waar de reizigers kwamen, tot hun geleider, herkend zijnde, met alle blijken van achting en liefde verwelkomd werd, en alle teekens van en alle vrees voor een vijandige ontvangst verdwenen.
+<p rend="initial-width(104px) initial-height(103px) initial-image(images/ie197.png)">Eerst na drie uren wandelens was het, dat de volgelingen van Cedric, met hun geheimzinnigen leidsman, eene kleine opening in het woud bereikten, in wier midden een eik van ontzachelijke grootte groeide, welke de kromme takken naar alle kanten uitspreidde. Onder dezen boom lagen vier of vijf schutters op den grond uitgestrekt, terwijl een ander, als schildwacht, in den maneschijn heen en weder ging. Zoodra deze de naderende voetstappen hoorde, gaf hij een teeken, en de slapers sprongen dadelijk op en spanden hun bogen. Zes pijlen werden gericht naar den kant, van waar de reizigers kwamen, tot hun geleider, herkend zijnde, met alle blijken van achting en liefde verwelkomd werd, en alle teekens van en alle vrees voor een vijandige ontvangst verdwenen.
 
 <p>&ldquo;Waar is de Molenaar?&rdquo; was zijn eerste vraag.
 
@@ -3102,7 +3102,7 @@
 <p>&ldquo;Voorwaarts, priester, en houd u stil,&rdquo; zei de schutter, &ldquo;het ware beter, dat gij den weg weest naar de vergaderplaats, dan dat gij zegt, wat zoowel uit betamelijkheid als voorzichtigheid, verzwegen moest blijven!&rdquo;
 
 
-<p><figure id=o203 rend="image(images/o052.gif)">
+<p><figure id=o203 rend="image(images/o052.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -3128,7 +3128,7 @@
 </epigraph>
 
 
-<p rend="initial-width(99px) initial-height(100px) initial-image(images/it204.gif)">Terwijl deze maatregelen ten behoeve van Cedric en zijn metgezellen genomen werden, dreven de gewapenden, welke hen gevangen genomen hadden, hen voort naar de veste, waar zij hen wilden opsluiten. Maar het werd spoedig duister, en de boschpaden schenen slecht aan de stroopers bekend te zijn. Zij moesten herhaaldelijk lang stilhouden, en zelfs een paar maal op hun pad terugkeeren, om weder op den rechten weg te komen. De zomermorgen brak aan, eer zij met de volkomene bewustheid, dat zij op het rechte spoor waren, konden verder gaan. Maar het vertrouwen keerde met den dag terug, en de ruiters joegen nu ijlings voorwaarts. Intusschen viel het volgende gesprek tusschen de twee aanvoerders der bandieten voor.
+<p rend="initial-width(99px) initial-height(100px) initial-image(images/it204.png)">Terwijl deze maatregelen ten behoeve van Cedric en zijn metgezellen genomen werden, dreven de gewapenden, welke hen gevangen genomen hadden, hen voort naar de veste, waar zij hen wilden opsluiten. Maar het werd spoedig duister, en de boschpaden schenen slecht aan de stroopers bekend te zijn. Zij moesten herhaaldelijk lang stilhouden, en zelfs een paar maal op hun pad terugkeeren, om weder op den rechten weg te komen. De zomermorgen brak aan, eer zij met de volkomene bewustheid, dat zij op het rechte spoor waren, konden verder gaan. Maar het vertrouwen keerde met den dag terug, en de ruiters joegen nu ijlings voorwaarts. Intusschen viel het volgende gesprek tusschen de twee aanvoerders der bandieten voor.
 
 <p>&ldquo;Het is tijd, dat gij ons verlaat, ridder Maurice,&rdquo; zei de Tempelier tegen De Bracy, &ldquo;om het tweede bedrijf van uw mysterie op het tooneel te brengen. Gij weet, dat gij nu den bevrijder moet spelen.&rdquo;
 
@@ -3265,7 +3265,7 @@
 </epigraph>
 
 
-<p rend="initial-width(107px) initial-height(103px) initial-image(images/ia214.gif)">Aan de Saksische edelen het overlatende, tot hun maaltijd terug te keeren, zoodra hunne onbevredigde nieuwsgierigheid duldde, dat zij aan hun half verzadigden eetlust gehoor gaven, moeten wij een blik werpen op de nog strengere gevangenschap van Izaäk van York. De arme Jood was dadelijk in een keldergewelf van het kasteel geworpen, waarvan de vloer diep onder den grond en zeer vochtig was, daar die nog lager dan de gracht lag. Het weinige licht kwam uit een paar zeer hoog geplaatste schietgaten, zoodat de gevangene er op verre na niet bijkomen kon. Deze openingen verschaften zelfs op den middag slechts een flauw schemerlicht, dat in duisternis overging, lang eer het overige gedeelte van het kasteel den zegen van het daglicht verloren had. Ketenen en boeien, welke vroegere gevangenen gedragen hadden, wier pogingen tot ontvluchten men gevreesd had, hingen verroest aan de muren der gevangenis; en in de ringen van één er van zag men twee vermolmde beenderen, welke voorheen naar het scheen aan een mensch behoord hadden, dien men niet alleen daar als gevangene had laten omkomen, maar ook tot een geraamte laten vergaan. Aan het ééne einde van dit akelig verblijf was een <corr sic=groote>groot</corr> rooster, waarover eenige ijzeren staven lagen, die half door den roest verteerd waren.
+<p rend="initial-width(107px) initial-height(103px) initial-image(images/ia214.png)">Aan de Saksische edelen het overlatende, tot hun maaltijd terug te keeren, zoodra hunne onbevredigde nieuwsgierigheid duldde, dat zij aan hun half verzadigden eetlust gehoor gaven, moeten wij een blik werpen op de nog strengere gevangenschap van Izaäk van York. De arme Jood was dadelijk in een keldergewelf van het kasteel geworpen, waarvan de vloer diep onder den grond en zeer vochtig was, daar die nog lager dan de gracht lag. Het weinige licht kwam uit een paar zeer hoog geplaatste schietgaten, zoodat de gevangene er op verre na niet bijkomen kon. Deze openingen verschaften zelfs op den middag slechts een flauw schemerlicht, dat in duisternis overging, lang eer het overige gedeelte van het kasteel den zegen van het daglicht verloren had. Ketenen en boeien, welke vroegere gevangenen gedragen hadden, wier pogingen tot ontvluchten men gevreesd had, hingen verroest aan de muren der gevangenis; en in de ringen van één er van zag men twee vermolmde beenderen, welke voorheen naar het scheen aan een mensch behoord hadden, dien men niet alleen daar als gevangene had laten omkomen, maar ook tot een geraamte laten vergaan. Aan het ééne einde van dit akelig verblijf was een <corr sic=groote>groot</corr> rooster, waarover eenige ijzeren staven lagen, die half door den roest verteerd waren.
 
 
 <p><figure id=p215 rend="float(right)">
@@ -3376,7 +3376,7 @@
 <p>In weerwil van den zwakken tegenstand van den grijsaard, hadden de Saraceenen hem reeds de bovenkleederen afgescheurd, en wilden hem geheel ontkleeden, toen de klank van een horen zich tweemaal buiten het kasteel liet hooren, en zelfs tot in den kerker doordrong: en onmiddellijk daarna, hoorde men stemmen, die om den ridder Reginald Front-de-Boeuf riepen. Daar de woeste edelman niet gaarne in deze helsche bezigheid wilde gevonden worden, gaf hij een teeken aan de slaven, om aan Izaäk zijne kleederen terug te geven, en, de gevangenis met zijn dienaars verlatende, liet hij den Jood achter, om God voor zijn redding te danken, of om de gevangenschap zijner dochter, en haar lot te beklagen, naarmate zijn persoonlijke of vaderlijke gevoelens de overhand kregen.
 
 
-<p><figure id=o224 rend="image(images/o224.gif)">
+<p><figure id=o224 rend="image(images/o224.png)">
 <figDesc></figDesc>
 </figure>
 
@@ -3399,7 +3399,7 @@
 </epigraph>
 
 
-<p rend="initial-width(122px) initial-height(107px) initial-image(images/id225.gif)">De kamer, waarin de Jonkvrouw Rowena gebracht was, vertoonde eenige ruwe versiering en opschik, en men kon hare opsluiting aldaar als een bijzonder blijk van hoogachting beschouwen, die aan de overige gevangenen niet bewezen werd. Maar de echtgenoote van Front-de-Boeuf, voor wie het vertrek oorspronkelijk ingericht werd, was sedert lang overleden, en verval en verwaarloozing hadden de weinige sieraden verminkt, waarmede haar smaak de kamer opgesmukt had. Het behangsel hing, op vele plaatsen, bij den muur neer, en op andere was het door de kracht der zon verbleekt, of vergaan, of door ouderdom verscheurd en verwoest. Hoe vervallen dan ook de kamer scheen, was het toch die, welke men in het kasteel voor het gemak der Saksische erfdochter het geschiktst geoordeeld had; en daar liet men haar, om over haar lot na te denken, tot de handelende personen, in dit schandelijk bedrijf, de verscheidene rollen verdeeld hadden, welke zij spelen zouden. Dit was bepaald in een raad, gehouden door Front-de-Boeuf, De Bracy en den Tempelier, in welken zij, na eene lange en driftige beraadslaging over de verschillende voordeelen, welke ieder, voor zijn eigen aandeel, uit deze stoute onderneming wilde trekken, ten laatste het lot hunner ongelukkige gevangenen beslist hadden.
+<p rend="initial-width(122px) initial-height(107px) initial-image(images/id225.png)">De kamer, waarin de Jonkvrouw Rowena gebracht was, vertoonde eenige ruwe versiering en opschik, en men kon hare opsluiting aldaar als een bijzonder blijk van hoogachting beschouwen, die aan de overige gevangenen niet bewezen werd. Maar de echtgenoote van Front-de-Boeuf, voor wie het vertrek oorspronkelijk ingericht werd, was sedert lang overleden, en verval en verwaarloozing hadden de weinige sieraden verminkt, waarmede haar smaak de kamer opgesmukt had. Het behangsel hing, op vele plaatsen, bij den muur neer, en op andere was het door de kracht der zon verbleekt, of vergaan, of door ouderdom verscheurd en verwoest. Hoe vervallen dan ook de kamer scheen, was het toch die, welke men in het kasteel voor het gemak der Saksische erfdochter het geschiktst geoordeeld had; en daar liet men haar, om over haar lot na te denken, tot de handelende personen, in dit schandelijk bedrijf, de verscheidene rollen verdeeld hadden, welke zij spelen zouden. Dit was bepaald in een raad, gehouden door Front-de-Boeuf, De Bracy en den Tempelier, in welken zij, na eene lange en driftige beraadslaging over de verschillende voordeelen, welke ieder, voor zijn eigen aandeel, uit deze stoute onderneming wilde trekken, ten laatste het lot hunner ongelukkige gevangenen beslist hadden.
 
 <p>Het was dus omtrent den middag, toen De Bracy, door wien de onderneming eigenlijk beraamd was, verscheen, om zijne plannen op de hand en de goederen van Rowena door te zetten. Den tusschentijd <pb id=pb226 n=226>had hij niet geheel en al besteed, om te raadplegen met zijne bondgenooten; maar hij had zich met al de pracht van die tijden opgesmukt. Zijn groen wambuis en masker waren afgelegd. Zijn lang, schoon haar hing in zware krullen over zijnen met rijk bont bezetten mantel. Zijn baard was kort geschoren, zijn wambuis hing tot op het midden van zijn been, en de gordel, welke het vasthield, en tegelijk zijn groot zwaard droeg, was geborduurd en bezet met goud. Wij hebben reeds van de buitensporige mode der schoenen van dien tijd gesproken, en de punten van die van Maurice De Bracy konden aan de schoonsten van dien aard den prijs betwisten, daar ze gedraaid en opgekruld waren als de horens van een ram. Zoo was de kleeding van een hofjonker van dit tijdvak; en in het tegenwoordige geval werd de uitwerking daarvan bevorderd door het schoone voorkomen en de beschaafde manieren van den ridder, wiens houding de bevalligheid van den hoveling met het ongedwongene van den krijgsman vereenigde.
 
@@ -3484,7 +3484,7 @@
 <p>Zoodanig en zoo losbandig waren die tijden, volgens de openlijke verklaring van de vergaderde geestelijkheid, zoo als Eadmer die geboekt heeft; en wij behoeven er niets meer bij te voegen, om de waarschijnlijkheid der tooneelen te rechtvaardigen, die wij reeds beschreven hebben en nog beschrijven zullen, op het meer apocrief gezag van het Wardour Handschrift.
 
 
-<p><figure id=o233 rend="image(images/o233.gif)">
+<p><figure id=o233 rend="image(images/o233.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -3504,7 +3504,7 @@
 </epigraph>
 
 
-<p rend="initial-width(100px) initial-height(101px) initial-image(images/it234.gif)">Terwijl de door ons beschreven tooneelen in andere gedeelten van het kasteel voorvielen, wachtte de Jodin Rebekka haar lot af, in een verafgelegen en afgezonderden toren. Derwaarts werd zij gebracht door twee van de vermomde roovers, en nadat zij in een klein vertrekje was geschoven, bevond zij zich in de tegenwoordigheid van een oude vrouw, die een Saksisch liedje neuriede, alsof zij de maat wilde houden bij het draaien van haar spinnewiel. De oude vrouw verhief het hoofd bij het binnenkomen van Rebekka, en gluurde naar de schoone Jodin met dien boosaardigen nijd, waarmede de ouderdom en de leelijkheid, gepaard met het ongeluk, gewoon zijn jeugd en schoonheid te beschouwen.
+<p rend="initial-width(100px) initial-height(101px) initial-image(images/it234.png)">Terwijl de door ons beschreven tooneelen in andere gedeelten van het kasteel voorvielen, wachtte de Jodin Rebekka haar lot af, in een verafgelegen en afgezonderden toren. Derwaarts werd zij gebracht door twee van de vermomde roovers, en nadat zij in een klein vertrekje was geschoven, bevond zij zich in de tegenwoordigheid van een oude vrouw, die een Saksisch liedje neuriede, alsof zij de maat wilde houden bij het draaien van haar spinnewiel. De oude vrouw verhief het hoofd bij het binnenkomen van Rebekka, en gluurde naar de schoone Jodin met dien boosaardigen nijd, waarmede de ouderdom en de leelijkheid, gepaard met het ongeluk, gewoon zijn jeugd en schoonheid te beschouwen.
 
 <p>&ldquo;Gij moet opstaan en van hier weggaan, oude,&rdquo; zei een der mannen; &ldquo;onze edele meester beveelt het. Gij moet deze kamer aan een schooner overlaten.&rdquo;
 
@@ -3635,7 +3635,7 @@
 <p>Hij ging terug in het torenkamertje, en de trap af, Rebekka verlatende, die nauwelijks meer verschrikt was door het vooruitzicht van den dood, waaraan zij zoo kort te voren was blootgesteld geweest, dan door de woedende eerzucht van den stouten en slechten man, in wiens macht ze zich zoo ongelukkig bevond. Toen ze in de torenkamer trad, was haar eerste werk, den God van Jakob te danken voor de bescherming, welke Hij haar verleend had, en om die bij voortduring voor haar en haar vader af te smeeken. Een andere naam sloop in haar gebed;&mdash;het was die van den gewonden Christen, dien het lot in de handen van bloeddorstige menschen, zijne doodvijanden, geleverd had. Haar hart verweet haar wel is waar, dat zij zelfs in het gebed tot den Almachtige de herinnering aan een man mengde, met wiens lot het hare in geene gemeenschap kon komen;&mdash;van een Nazarener en een vijand van haar geloof; maar de bede was reeds gedaan, en zelfs alle bekrompen vooroordeelen van haar godsdienst konden Rebekka niet overhalen, om te wenschen, dat het niet gebeurd ware.
 
 
-<p><figure id=o245 rend="image(images/o120.gif)">
+<p><figure id=o245 rend="image(images/o120.png)">
 <figDesc></figDesc>
 </figure>
 
@@ -3657,7 +3657,7 @@
 </epigraph>
 
 
-<p rend="initial-width(125px) initial-height(109px) initial-image(images/id246.gif)">De Tempelier ging naar de zaal van het kasteel terug en vond De Bracy reeds daar aanwezig. &ldquo;Uwe vrijerij,&rdquo; zei deze, &ldquo;is waarschijnlijk, evenals de mijne, door dit luidruchtige trompetgeschal gestoord. Maar gij zijt later en met meer tegenzin gekomen, en dus veronderstel ik, dat uwe ontvangst gunstiger is geweest, dan de mijne.&rdquo;
+<p rend="initial-width(125px) initial-height(109px) initial-image(images/id246.png)">De Tempelier ging naar de zaal van het kasteel terug en vond De Bracy reeds daar aanwezig. &ldquo;Uwe vrijerij,&rdquo; zei deze, &ldquo;is waarschijnlijk, evenals de mijne, door dit luidruchtige trompetgeschal gestoord. Maar gij zijt later en met meer tegenzin gekomen, en dus veronderstel ik, dat uwe ontvangst gunstiger is geweest, dan de mijne.&rdquo;
 
 <p>&ldquo;Is uw aanzoek bij de Saksische erfdochter vruchteloos geweest?&rdquo; vroeg de Tempelier.
 
@@ -3667,7 +3667,7 @@
 
 <p>&ldquo;Grooten dank voor eenige droppels,<corr>&rdquo;</corr> hernam De Bracy; &ldquo;maar dit meisje heeft genoeg geweend, om het licht van een vuurbaak uit te blusschen. Nooit is er zulk een handenwringen en tranenvloed geweest sedert de dagen van St. Niobe,<note n=1>Ik wenschte, dat de Prior hen ook onderricht had, wanneer Niobe heilig gesproken is. Waarschijnlijk gedurende dat verlichte tijdvak, toen: &ldquo;Pan aan Mozes zijn herdersfluitje leende.&rdquo;&mdash;Schrijver.</note> waarvan Prior Aymer ons verteld heeft. Een watergeest is in de Saksische schoone gevaren.&rdquo;
 
-<p>&ldquo;De Jodin is door een legioen booze geesten bezield,&rdquo; hervatte de Tempelier; &ldquo;want ik geloof niet, dat één enkele, al ware het Apollyon<note n=1><corr sic="<GRA>>Aholl=uwn</GRA>"><GR>>Apoll'uwn</GR></corr>, de verderver. <xref url="bib: Rev 9:11"><hi>Openbaringen</hi> IX 11</xref>.&mdash;t. B.</note> <pb id=pb247 n=247>in eigen persoon, zulken ontembaren hoogmoed en standvastigheid kon inboezemen. Maar waar is Front-de-Boeuf? Dit horengeschal doet zich hoe langer hoe harder vernemen!&rdquo;
+<p>&ldquo;De Jodin is door een legioen booze geesten bezield,&rdquo; hervatte de Tempelier; &ldquo;want ik geloof niet, dat één enkele, al ware het Apollyon<note n=1><corr sic="<GRA>>Aholl=uwn</GRA>"><GR>>Apoll'uwn</GR></corr>, de verderver. <xref url="bib:Re 9:11"><hi>Openbaringen</hi> IX 11</xref>.&mdash;t. B.</note> <pb id=pb247 n=247>in eigen persoon, zulken ontembaren hoogmoed en standvastigheid kon inboezemen. Maar waar is Front-de-Boeuf? Dit horengeschal doet zich hoe langer hoe harder vernemen!&rdquo;
 
 <p>&ldquo;Hij onderhandelt met den Jood, denk ik,&rdquo; hernam De Bracy onverschillig; &ldquo;waarschijnlijk heeft het gehuil van Izaäk den klank van den horen verdoofd. Gij zult bij ondervinding weten, ridder Brian, dat een Jood, die zijn geld af moet staan op voorwaarden, zooals onze vriend Front-de-Boeuf vermoedelijk voorschrijft, een geschreeuw zal maken, luid genoeg om boven twintig horens en trompetten uit gehoord te worden. Maar wij zullen hem laten roepen.&rdquo;
 
@@ -3790,7 +3790,7 @@
 <p>&ldquo;<hi lang=la>Pax vobiscum!</hi>&rdquo; zei Wamba, die nu in zijn geestelijke vermomming gehuld was. En dit zeggende, nam hij den plechtigen en statigen gang van een monnik aan, en vertrok, om zijne zending te volbrengen.
 
 
-<p><figure id=o254 rend="image(images/o254.gif)">
+<p><figure id=o254 rend="image(images/o254.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -3814,7 +3814,7 @@
 </epigraph>
 
 
-<p rend="initial-width(99px) initial-height(102px) initial-image(images/it255.gif)">Toen de nar, in de kap en het gewaad van den heremiet, en zijn koord met knoopen om het lijf geslingerd, voor de poort van Front-de-Boeuf&apos;s kasteel stond, vroeg hem de wachter naar zijn naam en zijn boodschap.
+<p rend="initial-width(99px) initial-height(102px) initial-image(images/it255.png)">Toen de nar, in de kap en het gewaad van den heremiet, en zijn koord met knoopen om het lijf geslingerd, voor de poort van Front-de-Boeuf&apos;s kasteel stond, vroeg hem de wachter naar zijn naam en zijn boodschap.
 
 <p>&ldquo;<hi lang=la>Pax vobiscum!</hi>&rdquo; antwoordde de nar, &ldquo;ik ben een arme broeder van de orde van St. Franciscus, en ik kom hier om mijn dienst te doen bij zekere ongelukkige gevangenen, die in dit kasteel zijn.&rdquo;
 
@@ -3888,7 +3888,7 @@
 </figure>
 
 
-<p>&ldquo;Schurk,&rdquo; zei Cedric, &ldquo;de voorouders van Athelstane waren Koningen van Engeland!&apos;
+<p>&ldquo;Schurk,&rdquo; zei Cedric, &ldquo;de voorouders van Athelstane waren Koningen van Engeland!&rdquo;
 
 <p>&ldquo;Dat is wel mogelijk,&rdquo; hervatte Wamba; &ldquo;maar mijn hals zit te makkelijk tusschen mijne schouders, om dien om hunnentwille te laten toesnoeren. Daarom, goede heer, neem mijn aanbod voor u zelven aan, of laat mij even vrij uit deze gevangenis gaan, als ik er in gekomen ben.&rdquo;
 
@@ -3941,7 +3941,7 @@
 <p>Rebekka vertrok. Hare dringende gebeden hadden Urfried overgehaald haar te vergunnen, den toren te verlaten, en Urfried had haar gebruikt om den gewonden Ivanhoe op te passen, wien zij nu van ganscher harte haar dienst bewees. Met een verstand, dat hun gevaarlijken toestand goed begreep, en zich vaardig van ieder middel tot redding wist te bedienen, had Rebekka iets goeds gehoopt van de tegenwoordigheid van een geestelijke, die, zooals zij van Urfried gehoord had, in dit goddeloos kasteel doorgedrongen was. Zij wachtte op de terugkomst van den monnik, met het voornemen, om hem aan te spreken, en bij hem belangstelling voor de gevangenen te verwekken. De lezer heeft zoo even vernomen, hoe slecht zij slaagde.
 
 
-<p><figure id=o261 rend="image(images/o052.gif)">
+<p><figure id=o261 rend="image(images/o052.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -3972,7 +3972,7 @@
 </epigraph>
 
 
-<p rend="initial-width(107px) initial-height(105px) initial-image(images/in262.gif)">Nadat Urfried door geschreeuw en bedreigingen Rebekka naar de kamer terug gedreven had, welke pas door haar verlaten was, geleidde zij Cedric, tegen wil en dank, in een klein vertrek, waarvan zij de deur zorgvuldig achter zich toesloot. Hierop, na uit een kast een wijnbeker en twee flesschen gekregen te hebben, zette zij ze op tafel, en zei op vasten, volstrekt niet vragenden toon: &ldquo;Gij zijt een Sakser, vader! Ontken het niet,&rdquo; ging zij voort, bespeurende, dat Cedric zich niet haastte om te antwoorden; &ldquo;de klanken mijner moedertaal zijn mij aangenaam, ofschoon ik ze zelden anders hoor, dan uit den mond van de ellendige, verachtelijke slaven, wien de trotsche Normandiërs het zwaarste en laagste werk in dit kasteel opleggen. Gij zijt een Sakser, vader,&mdash;een Sakser, en bovendien een dienaar Gods, een vrij man&mdash;Uw woorden klinken aangenaam in mijn ooren!&rdquo;
+<p rend="initial-width(107px) initial-height(105px) initial-image(images/in262.png)">Nadat Urfried door geschreeuw en bedreigingen Rebekka naar de kamer terug gedreven had, welke pas door haar verlaten was, geleidde zij Cedric, tegen wil en dank, in een klein vertrek, waarvan zij de deur zorgvuldig achter zich toesloot. Hierop, na uit een kast een wijnbeker en twee flesschen gekregen te hebben, zette zij ze op tafel, en zei op vasten, volstrekt niet vragenden toon: &ldquo;Gij zijt een Sakser, vader! Ontken het niet,&rdquo; ging zij voort, bespeurende, dat Cedric zich niet haastte om te antwoorden; &ldquo;de klanken mijner moedertaal zijn mij aangenaam, ofschoon ik ze zelden anders hoor, dan uit den mond van de ellendige, verachtelijke slaven, wien de trotsche Normandiërs het zwaarste en laagste werk in dit kasteel opleggen. Gij zijt een Sakser, vader,&mdash;een Sakser, en bovendien een dienaar Gods, een vrij man&mdash;Uw woorden klinken aangenaam in mijn ooren!&rdquo;
 
 <p>&ldquo;Bezoeken dan geen Saksische priesters dit kasteel?&rdquo; hernam Cedric; &ldquo;Het ware, dunkt mij, hunne plicht, de verworpelingen en onderdrukten onder de kinderen des lands te troosten.&rdquo;
 
@@ -4270,7 +4270,7 @@
 </epigraph>
 
 
-<p rend="initial-width(101px) initial-height(100px) initial-image(images/io280.gif)">Onze geschiedenis moet noodzakelijk eenige bladzijden terug gaan, om den lezer van zekere voorvallen te onderrichten, welker kennis vereischt is tot het verder begrijpen van dit belangrijk verhaal. Hij zal wel van zelf begrepen hebben, dat, toen Ivanhoe in zwijm viel en door iedereen verlaten scheen, Rebekka door haar dringende beden haar vader overhaalde den dapperen jongen krijgsman uit het strijdperk naar het huis te laten brengen, dat de Joden tijdelijk in een der voorsteden van Ashby bewoonden. Het zou ook in andere omstandigheden niet moeielijk geweest zijn, om Izaäk tot dezen stap te overreden, want hij was van inborst goedaardig en dankbaar. Maar hij bezat ook de vooroordeelen en schroomvallige vreesachtigheid aan zijn vervolgd volk eigen, en deze moesten overwonnen worden.
+<p rend="initial-width(101px) initial-height(100px) initial-image(images/io280.png)">Onze geschiedenis moet noodzakelijk eenige bladzijden terug gaan, om den lezer van zekere voorvallen te onderrichten, welker kennis vereischt is tot het verder begrijpen van dit belangrijk verhaal. Hij zal wel van zelf begrepen hebben, dat, toen Ivanhoe in zwijm viel en door iedereen verlaten scheen, Rebekka door haar dringende beden haar vader overhaalde den dapperen jongen krijgsman uit het strijdperk naar het huis te laten brengen, dat de Joden tijdelijk in een der voorsteden van Ashby bewoonden. Het zou ook in andere omstandigheden niet moeielijk geweest zijn, om Izaäk tot dezen stap te overreden, want hij was van inborst goedaardig en dankbaar. Maar hij bezat ook de vooroordeelen en schroomvallige vreesachtigheid aan zijn vervolgd volk eigen, en deze moesten overwonnen worden.
 
 <p>&ldquo;Heilige Abraham!&rdquo; riep hij uit, &ldquo;het is een goed jongeling, het snijdt mij door het hart, als ik zie, hoe het bloed over zijn rijk geborduurde kraag en zijne kostbare wapenrusting vloeit.&mdash;Maar hem in ons huis te brengen, meisje, hebt gij daar wel over nagedacht?&mdash;Hij is een Christen, en naar onze wet mogen wij met den vreemdeling en den Heiden niet anders verkeeren, dan om den wille van den handel.&rdquo;
 
@@ -4410,7 +4410,7 @@
 
 
 
-<p><figure id=o292 rend="image(images/o052.gif)">
+<p><figure id=o292 rend="image(images/o052.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -4432,7 +4432,7 @@
 </epigraph>
 
 
-<p rend="initial-width(102px) initial-height(101px) initial-image(images/ie293.gif)">Een oogenblik van gevaar is dikwijls ook het oogenblik van openhartige genegenheid en liefde. Wij vergeten onze voorzichtigheid in de hevige ontroering onzer gevoelens, en wij verraden dan dikwijls aandoeningen, welke, in kalme oogenblikken, de bedaardheid ons doet verbergen, zoo niet geheel en al onderdrukken. Toen Rebekka zich weder naast het bed van Ivanhoe bevond, was zij zelve verwonderd over het geluk dat zij smaakte, op een oogenblik, dat beiden in gevaar, zoo niet reddeloos verloren waren. Toen zij hem den pols voelde, en naar zijne gezondheid vroeg, lag er in hare aanraking en in hare stem eene teederheid, welke eene grootere belangstelling te kennen gaf, dan zij zelve zou gewenscht hebben uit te drukken. Hare stem beefde, zij zelve sidderde, en het was slechts de koele vraag van Ivanhoe: &ldquo;Zijt gij het, mijne vriendin?&rdquo; welke hare bedaardheid terugriep, en haar herinnerde, dat de gevoelens, die zij koesterde, niet wederkeerig waren en zulks ook niet worden konden. Een zucht ontsnapte haar, maar een zucht, die nauwelijks hoorbaar was, en de vragen, welke zij den ridder omtrent zijn toestand deed, waren in den toon der bedaardste vriendschap. Ivanhoe antwoordde dadelijk, dat hij, ten opzichte der gezondheid, zoo wel was, en zelfs beter, dan hij verwacht kon hebben.&mdash;&ldquo;Dank,&rdquo; zei hij, &ldquo;uw kundige hulp, waarde Rebekka.&rdquo;
+<p rend="initial-width(102px) initial-height(101px) initial-image(images/ie293.png)">Een oogenblik van gevaar is dikwijls ook het oogenblik van openhartige genegenheid en liefde. Wij vergeten onze voorzichtigheid in de hevige ontroering onzer gevoelens, en wij verraden dan dikwijls aandoeningen, welke, in kalme oogenblikken, de bedaardheid ons doet verbergen, zoo niet geheel en al onderdrukken. Toen Rebekka zich weder naast het bed van Ivanhoe bevond, was zij zelve verwonderd over het geluk dat zij smaakte, op een oogenblik, dat beiden in gevaar, zoo niet reddeloos verloren waren. Toen zij hem den pols voelde, en naar zijne gezondheid vroeg, lag er in hare aanraking en in hare stem eene teederheid, welke eene grootere belangstelling te kennen gaf, dan zij zelve zou gewenscht hebben uit te drukken. Hare stem beefde, zij zelve sidderde, en het was slechts de koele vraag van Ivanhoe: &ldquo;Zijt gij het, mijne vriendin?&rdquo; welke hare bedaardheid terugriep, en haar herinnerde, dat de gevoelens, die zij koesterde, niet wederkeerig waren en zulks ook niet worden konden. Een zucht ontsnapte haar, maar een zucht, die nauwelijks hoorbaar was, en de vragen, welke zij den ridder omtrent zijn toestand deed, waren in den toon der bedaardste vriendschap. Ivanhoe antwoordde dadelijk, dat hij, ten opzichte der gezondheid, zoo wel was, en zelfs beter, dan hij verwacht kon hebben.&mdash;&ldquo;Dank,&rdquo; zei hij, &ldquo;uw kundige hulp, waarde Rebekka.&rdquo;
 
 <p>&ldquo;Hij noemt mij waarde Rebekka,&rdquo; zei het meisje in zich zelve, &ldquo;maar op een kouden en onverschilligen toon, welke slecht met het woord overeenkomt. Zijn strijdpaard,&mdash;zijn jachthond zijn hem liever dan de verachte Jodin.&rdquo;
 
@@ -4581,7 +4581,7 @@
 <p>Zij wikkelde zich dicht in haar sluier, en ging op eenigen afstand van de legerstede des gewonden ridders zitten, met den rug naar hem toe gekeerd, terwijl zij hare ziel versterkte, of trachtte die te versterken, niet alleen tegen de ongelukken, die haar van buiten dreigden, maar ook tegen de verraderlijke gevoelens, welke haar hart bestormden.
 
 
-<p><figure id=p305 rend="image(images/o179.gif)">
+<p><figure id=p305 rend="image(images/o179.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -4607,7 +4607,7 @@
 </epigraph>
 
 
-<p rend="initial-width(105px) initial-height(105px) initial-image(images/ig306.gif)">Gedurende het oogenblik van rust, na het eerste voordeel door de belegeraars behaald, terwijl de eene partij zich bereidde om het te vervolgen, en de andere om haar verdedigingsmiddelen te versterken, hielden de Tempelier en De Bracy een korte beraadslaging in de zaal van het kasteel.
+<p rend="initial-width(105px) initial-height(105px) initial-image(images/ig306.png)">Gedurende het oogenblik van rust, na het eerste voordeel door de belegeraars behaald, terwijl de eene partij zich bereidde om het te vervolgen, en de andere om haar verdedigingsmiddelen te versterken, hielden de Tempelier en De Bracy een korte beraadslaging in de zaal van het kasteel.
 
 <p>&ldquo;Waar is Front-de-Boeuf?&rdquo; vroeg de laatste, die de verdediging van het achterste gedeelte van de sterkte bestuurd had; &ldquo;men zegt dat hij gesneuveld is.&rdquo;
 
@@ -4700,7 +4700,7 @@
 <p>Met deze woorden verliet zij het vertrek en Front-de-Boeuf kon het geknars van den zwaren sleutel hooren, terwijl zij de deur achter <pb id=pb314 n=314>zich sloot en grendelde, om dus de laatste kans van redding te verijdelen. In zijn uitersten doodsangst riep hij zijn bedienden en bondgenooten: &ldquo;Steven en Saint Maur!&mdash;Clement en Gilles!&mdash;Ik verbrand hier hulpeloos!&mdash;Helpt, helpt, stoute Bois-Guilbert, dappere De Bracy,&mdash;het is Front-de-Boeuf, die roept!&mdash;Mogen alle vloeken, die verraders verdienen, op uwe hoofden nederkomen! Laat gij mij op deze ellendige wijze omkomen. Zij hooren mij niet;&mdash;zij kunnen mij niet hooren;&mdash;mijne stem wordt niet gehoord in het gedruisch van den strijd!&mdash;De rook wordt hoe langer hoe dikker;<pb id=pb315 n=315>&mdash;het vuur heeft den vloer bereikt. O, slechts een ademtocht van de hemelsche lucht, al moest ik dien koopen met oogenblikkelijke vernietiging!&rdquo; En in de dolzinnige ijlhoofdigheid van zijne wanhoop, schreeuwde de rampzalige nu eens met de vechtenden, dan weder braakte hij vervloekingen uit tegen zich zelven, het menschdom en den Hemel zelven.&mdash;&ldquo;De roode vlam gloeit reeds door den zwarten rook heen!&rdquo; riep hij uit; &ldquo;de duivel trekt tegen mij op onder de banier van zijn eigen element.&mdash;Booze geest, wijk!&mdash;Ik ga niet met u zonder mijne makkers;&mdash;allen, allen behooren u, deze bezetting,&mdash;dit kasteel!&mdash;Denkt gij, dat Front-de-Boeuf alleen wil uitverkoren worden?&mdash;Neen,&mdash;de ongeloovige Tempelier;&mdash;de lichtzinnige De Bracy;&mdash;Ulrica, die schandelijke, wulpsche moordenares;&mdash;de mannen, die mij in mijne ondernemingen bijgestaan hebben;&mdash;de Saksische honden en die vervloekte Joden, die mijne gevangenen zijn;&mdash;allen, allen zullen mij vergezellen!&mdash;Een schooner gezelschap, <corr sic=als>dan</corr> ooit den weg der onderwereld bewandelde!&mdash;Ha, ha, ha!&rdquo; en hij lachte in zijn waanzin, tot het gewelf er van weergalmde. &ldquo;Wie lachte daar?&rdquo; riep hij op een anderen toon; want het geraas van den strijd belette niet, dat de weerklank van zijn eigen vreeselijk gelach zijn oor trof.&mdash;&ldquo;Wie lachte daar?&mdash;Ulrica, waart gij het?&mdash;Spreek, heks, en ik vergeef u;&mdash;want gij alleen, of de duivel zelf kondet in zulk een oogenblik lachen. Wijk, wijk!&rdquo;
 
 
-<p><figure id=o315 rend="image(images/o368.gif)">
+<p><figure id=o315 rend="image(images/o368.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -4726,7 +4726,7 @@
 </epigraph>
 
 
-<p rend="initial-width(100px) initial-height(99px) initial-image(images/io316.gif)">Ofschoon Cedric niet veel vertrouwen stelde op Ulrica&apos;s belofte, deelde hij die toch aan den Zwarten Ridder en Locksley mede. Het was hun aangenaam eene vriendin in de plaats te hebben, die in geval van nood hun het binnenkomen gemakkelijker kon maken; en zij waren het met den Sakser volkomen eens, dat een bestorming, hoe ongunstig ook de omstandigheden waren, gewaagd moest worden, als het eenige middel om de gevangenen uit de handen van den wreeden Front-de-Boeuf te bevrijden.
+<p rend="initial-width(100px) initial-height(99px) initial-image(images/io316.png)">Ofschoon Cedric niet veel vertrouwen stelde op Ulrica&apos;s belofte, deelde hij die toch aan den Zwarten Ridder en Locksley mede. Het was hun aangenaam eene vriendin in de plaats te hebben, die in geval van nood hun het binnenkomen gemakkelijker kon maken; en zij waren het met den Sakser volkomen eens, dat een bestorming, hoe ongunstig ook de omstandigheden waren, gewaagd moest worden, als het eenige middel om de gevangenen uit de handen van den wreeden Front-de-Boeuf te bevrijden.
 
 <p>&ldquo;Het koninklijke bloed van Alfred is in gevaar!&rdquo; zei Cedric.
 
@@ -5019,7 +5019,7 @@
 </epigraph>
 
 
-<p rend="initial-width(124px) initial-height(108px) initial-image(images/id332.gif)">Door de lanen van het eikenwoud schemerde het daglicht. De groene takken glinsterden met de paarlen van den dauw. De hinde geleidde haar jong uit de schuilplaats van hoog varenkruid naar de meer opene plekken van het groene bosch, en er was geen jager dáár, om het statige hert, aan het hoofd van zijne gehoornde kudde op te wachten, of af te snijden.
+<p rend="initial-width(124px) initial-height(108px) initial-image(images/id332.png)">Door de lanen van het eikenwoud schemerde het daglicht. De groene takken glinsterden met de paarlen van den dauw. De hinde geleidde haar jong uit de schuilplaats van hoog varenkruid naar de meer opene plekken van het groene bosch, en er was geen jager dáár, om het statige hert, aan het hoofd van zijne gehoornde kudde op te wachten, of af te snijden.
 
 <p>De vogelvrijverklaarden waren allen vergaderd om den grooten gerechtseik in de Harthill-laan, waar zij den nacht hadden doorgebracht, met zich van de vermoeienissen van het beleg te herstellen, eenigen door wijn, anderen door slaap, velen door de gebeurtenissen van den strijd aan te hooren of te verhalen, terwijl zij den buit berekenden, welken hun overwinning ter beschikking van hun opperhoofd gesteld had. Deze buit was inderdaad aanzienlijk, want ofschoon veel door het vuur vernield werd, zoo was er toch een groote menigte zilverwerk, rijke wapenrustingen en prachtige kleederen door de onverschrokken roovers gered, die door geen gevaar konden afgeschrikt worden, als zij zulke belooningen te wachten hadden. Zoo streng waren echter de wetten hunner vereeniging, dat niemand het waagde zich slechts het geringste gedeelte van den buit toe te eigenen, welke men op eene algemeene verzamelplaats gebracht had, om ter beschikking van hun aanvoerder te blijven.
 
@@ -5177,7 +5177,7 @@
 
 <p>&ldquo;Mocht ik zoo zeker zijn genade in uwe oogen te vinden,&rdquo; antwoordde de Jood, &ldquo;als ik zeker niets weet van al wat de eerwaarde priester in dezen verschrikkelijken nacht tegen mij gesproken heeft. Helaas! ik was zoo verward door doodsangst, schrik en pijn, dat al ware onze heilige vader Abraham gekomen, om voor mij te preeken, hij maar een dooven toehoorder gevonden zou hebben.&rdquo;
 
-<p>&ldquo;Gij liegt, Jood, en dat weet gij ook,&rdquo; zei de monnik; &ldquo;ik zal u slechts één woord van ons gesprek herinneren;&mdash;gij hebt beloofd om uw geheel vermogen aan onze heilige Orde af te staan!&apos;
+<p>&ldquo;Gij liegt, Jood, en dat weet gij ook,&rdquo; zei de monnik; &ldquo;ik zal u slechts één woord van ons gesprek herinneren;&mdash;gij hebt beloofd om uw geheel vermogen aan onze heilige Orde af te staan!&rdquo;
 
 <p>&ldquo;Zoo waar mij het Woord Gods helpe, mijne heeren,&rdquo; riep Izaäk, nog ongeruster dan te voren, &ldquo;geen woord van dien aard is over mijne lippen gekomen! Helaas! ik ben een oud, doodarm man,&mdash;en daarenboven, vrees ik, ook kinderloos;&mdash;hebt medelijden met mij en laat mij gaan!&rdquo;
 
@@ -5228,7 +5228,7 @@
 <p>En tusschen twee schutters in, werd onze oude kennis, de Prior van Jorvaulx, voor den troon van den aanvoerder der schutters gebracht.
 
 
-<p><figure id=o346 rend="image(images/o092.gif)">
+<p><figure id=o346 rend="image(images/o092.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -5253,7 +5253,7 @@
 </epigraph>
 
 
-<p rend="initial-width(116px) initial-height(116px) initial-image(images/id347.gif)">De gelaatstrekken en manieren van den gevangen Prior toonden een zonderling mengsel van beleedigden hoogmoed, verlegene gemaaktheid, en angst voor lichamelijke kwelling.
+<p rend="initial-width(116px) initial-height(116px) initial-image(images/id347.png)">De gelaatstrekken en manieren van den gevangen Prior toonden een zonderling mengsel van beleedigden hoogmoed, verlegene gemaaktheid, en angst voor lichamelijke kwelling.
 
 <p>&ldquo;Hoe, mijne heeren!&rdquo; zei hij met eene stem, welke deze drie aandoeningen verried, &ldquo;wat beteekent dit alles? Zijt gij Turken of Christenen, daar gij de handen slaat aan een dienaar der Kerk?&mdash;Weet gij, wat het is <hi lang=la>manus imponere in servos Domini</hi>? Gij hebt mijne valiezen uitgeplunderd; mijn schoonen kanten mantel, die een kardinaal waardig was, verscheurd.&mdash;In mijn plaats zou een ander zijn <hi lang=la>excommunicabo vos</hi> gebruiken; maar ik ben vreedzaam van aard, en als gij mijne paarden en valiezen teruggeeft, mijne broederen loslaat, hier op de plaats honderd kronen uitbetaalt, om missen te laten lezen voor het groote altaar der Abdij van Jorvaulx, en eene gelofte doet, vóór eerstkomende Pinksteren geen wild te eten, dan zou het kunnen gebeuren dat gij verder niets van dezen dollen streek hoort.&rdquo;
 
@@ -5512,7 +5512,7 @@
 </epigraph>
 
 
-<p rend="initial-width(103px) initial-height(101px) initial-image(images/ie360.gif)">Er was een groot feest in het kasteel van York, waarop Prins Jan die edelen, prelaten en aanvoerders genoodigd had, met wier behulp hij zijn eerzuchtige plannen op den troon van zijn broeder hoopte door te zetten. Waldemar Fitzurse, zijn bekwame en listige raadgever, werkte in het geheim om den moed bij hen aan te wakkeren, om openlijk voor hun voornemen uit te komen. Maar hunne onderneming werd vertraagd door de afwezigheid van meer dan één voornaam lid van het eedgenootschap. De hardnekkige en stoute, ofschoon ruwe moed van Front-de-Boeuf, de opgeruimde en ondernemende geest van De Bracy, de schranderheid, de krijgskundige ervaring en de beroemde dapperheid van Brian De Bois-Guilbert waren onmisbaar voor den goeden uitslag der samenzwering; en terwijl Prins Jan en zijn raadsman heimelijk hunne onnoodige en ontijdige afwezigheid verwenschten, durfden zij evenwel niets zonder hen beginnen. De Jood Izaäk scheen ook verdwenen te zijn, en met hem de hoop op zekere sommen eener leening, voor welke Prins Jan met dezen Israëliet en zijne broederen een contract had aangegaan. Dit gemis kon gevaarlijk worden bij eene zoo gewichtige onderneming.
+<p rend="initial-width(103px) initial-height(101px) initial-image(images/ie360.png)">Er was een groot feest in het kasteel van York, waarop Prins Jan die edelen, prelaten en aanvoerders genoodigd had, met wier behulp hij zijn eerzuchtige plannen op den troon van zijn broeder hoopte door te zetten. Waldemar Fitzurse, zijn bekwame en listige raadgever, werkte in het geheim om den moed bij hen aan te wakkeren, om openlijk voor hun voornemen uit te komen. Maar hunne onderneming werd vertraagd door de afwezigheid van meer dan één voornaam lid van het eedgenootschap. De hardnekkige en stoute, ofschoon ruwe moed van Front-de-Boeuf, de opgeruimde en ondernemende geest van De Bracy, de schranderheid, de krijgskundige ervaring en de beroemde dapperheid van Brian De Bois-Guilbert waren onmisbaar voor den goeden uitslag der samenzwering; en terwijl Prins Jan en zijn raadsman heimelijk hunne onnoodige en ontijdige afwezigheid verwenschten, durfden zij evenwel niets zonder hen beginnen. De Jood Izaäk scheen ook verdwenen te zijn, en met hem de hoop op zekere sommen eener leening, voor welke Prins Jan met dezen Israëliet en zijne broederen een contract had aangegaan. Dit gemis kon gevaarlijk worden bij eene zoo gewichtige onderneming.
 
 <p>Het was op den morgen na den val van Torquilstone, dat een verward gerucht zich in de stad York begon te verspreiden, dat De Bracy en De Bois-Guilbert, met hun bondgenoot Front-de-Boeuf, gevangen of gedood waren. Waldemar verhaalde dit aan Prins Jan, en voegde er bij, dat hij te meer vreesde, dat het waar moest zijn, <pb id=pb361 n=361>daar zij met een klein gevolg op weg gegaan waren, om een aanval te doen op den Sakser Cedric en zijne reisgenooten. Op een anderen tijd zou Prins Jan deze daad van geweld als een aardige grap beschouwd hebben, maar nu, daar ze tegen zijne eigene plannen inliep, en deze belemmerde, voer hij uit tegen de ondernemers, en sprak van geschonden wetten en het aanranden der openlijke orde en van het bijzonder eigendom op een toon, die Koning Alfred gepast zou hebben.
 
@@ -5671,7 +5671,7 @@
 <p>&ldquo;Als Maurice mij verraadt,&rdquo; zei Prins Jan&mdash;&ldquo;als hij mij verraadt, zooals zijn gedrag mij doet vreezen, dan zal ik zijn hoofd hebben, al raasde Richard zelfs voor de poorten van York!&rdquo;
 
 
-<p><figure id=o368 rend="image(images/o368.gif)">
+<p><figure id=o368 rend="image(images/o368.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -5694,7 +5694,7 @@
 </epigraph>
 
 
-<p rend="initial-width(101px) initial-height(100px) initial-image(images/io369.gif)">Ons verhaal keert thans tot Izaäk van York terug.&mdash;Gezeten op een muilezel, welken de vrijbuiter hem geschonken had, door twee krachtige schutters vergezeld, die hem tot lijfwacht dienden, was de Jood op reis gegaan naar de <foreign lang=en>Preceptory</foreign> van Templestowe, om over het losgeld zijner dochter te onderhandelen. De <foreign lang=en>Preceptory</foreign> was maar ééne dagreis van het vernielde kasteel van Torquilstone verwijderd, en de Jood had gehoopt, die vóór het vallen van den nacht te bereiken; na zijne leidslieden dus bij het einde van het bosch ontslagen en hen met een stuk zilver beloond te hebben, haastte hij zich, zooveel zijne vermoeidheid hem vergunde. Maar de krachten begaven hem geheel, toen hij nog vier mijlen van het hof der Tempeliers was; hevige pijnen voeren hem door den rug en de leden, en zijn knagende zielsangst, nu door lichamelijk lijden vergroot, maakte het hem volstrekt onmogelijk om verder te gaan, dan tot een klein vlekje waar een Joodsche Rabbijn woonde, die zeer ervaren was in de geneeskunde en dien Izaäk goed kende. Nathan Ben Israël ontving zijn lijdenden landsman met die gastvrijheid, welke de wet voorschreef, en welke de Joden jegens elkander uitoefenden. Hij stond er op, dat hij zich ter rust zou begeven, en diende hem die geneesmiddelen toe, welke toen de besten gerekend werden om de koorts te stuiten, welke schrik, vermoeienissen en verdriet den armen ouden Jood op den hals gehaald hadden. Des morgens, toen Izaäk opstaan en zijne reis vervolgen wilde, verzette Nathan zich tegen zijn voornemen, zoowel in zijne hoedanigheid van gastheer als in die van geneesheer. Het kon <pb id=pb370 n=370>hem het leven kosten, zei hij. Maar Izaäk gaf hem tot antwoord, dat er meer dan leven en dood met zijne reis naar Templestowe gemoeid was.
+<p rend="initial-width(101px) initial-height(100px) initial-image(images/io369.png)">Ons verhaal keert thans tot Izaäk van York terug.&mdash;Gezeten op een muilezel, welken de vrijbuiter hem geschonken had, door twee krachtige schutters vergezeld, die hem tot lijfwacht dienden, was de Jood op reis gegaan naar de <foreign lang=en>Preceptory</foreign> van Templestowe, om over het losgeld zijner dochter te onderhandelen. De <foreign lang=en>Preceptory</foreign> was maar ééne dagreis van het vernielde kasteel van Torquilstone verwijderd, en de Jood had gehoopt, die vóór het vallen van den nacht te bereiken; na zijne leidslieden dus bij het einde van het bosch ontslagen en hen met een stuk zilver beloond te hebben, haastte hij zich, zooveel zijne vermoeidheid hem vergunde. Maar de krachten begaven hem geheel, toen hij nog vier mijlen van het hof der Tempeliers was; hevige pijnen voeren hem door den rug en de leden, en zijn knagende zielsangst, nu door lichamelijk lijden vergroot, maakte het hem volstrekt onmogelijk om verder te gaan, dan tot een klein vlekje waar een Joodsche Rabbijn woonde, die zeer ervaren was in de geneeskunde en dien Izaäk goed kende. Nathan Ben Israël ontving zijn lijdenden landsman met die gastvrijheid, welke de wet voorschreef, en welke de Joden jegens elkander uitoefenden. Hij stond er op, dat hij zich ter rust zou begeven, en diende hem die geneesmiddelen toe, welke toen de besten gerekend werden om de koorts te stuiten, welke schrik, vermoeienissen en verdriet den armen ouden Jood op den hals gehaald hadden. Des morgens, toen Izaäk opstaan en zijne reis vervolgen wilde, verzette Nathan zich tegen zijn voornemen, zoowel in zijne hoedanigheid van gastheer als in die van geneesheer. Het kon <pb id=pb370 n=370>hem het leven kosten, zei hij. Maar Izaäk gaf hem tot antwoord, dat er meer dan leven en dood met zijne reis naar Templestowe gemoeid was.
 
 <p>&ldquo;Naar Templestowe!&rdquo; zei zijn gastheer met verbazing; voelde hem nog eens den pols, en pruttelde toen in zich zelven; &ldquo;De koorts is afgenomen, maar toch schijnt zijn geest eenigszins verward.&rdquo;
 
@@ -5838,7 +5838,7 @@
 <p>De arme Izaäk werd dus weggesleept en naar buiten geworpen, zonder dat men de minste acht sloeg op zijn smeekingen, of zelfs op zijn aanbiedingen. Hij kon dus niets beters doen, dan naar het huis van den Rabbijn terug te keeren, en te trachten, door middel van dezen gewaar te worden, wat het lot zijner dochter zijn zou. Hij had tot hiertoe voor haar eer gevreesd, en nu moest hij voor haar leven sidderen. Intusschen liet de Grootmeester den Preceptor van Templestowe bij zich komen.
 
 
-<p><figure id=o381 rend="image(images/o381.gif)">
+<p><figure id=o381 rend="image(images/o381.png)">
 <figDesc>Ornament</figDesc>
 </figure>
 
@@ -5866,7 +5866,7 @@
 </epigraph>
 
 
-<p rend="initial-width(114px) initial-height(113px) initial-image(images/ia382.gif)">Albert Malvoisin, President, of in de taal der Orde, Preceptor der stichting te Templestowe, was de broeder van dien Philip Malvoisin, van wien wij reeds vroeger in dit verhaal melding hebben gemaakt, en evenals deze baron, was hij ook nauw met Brian De Bois-Guilbert verbonden.
+<p rend="initial-width(114px) initial-height(113px) initial-image(images/ia382.png)">Albert Malvoisin, President, of in de taal der Orde, Preceptor der stichting te Templestowe, was de broeder van dien Philip Malvoisin, van wien wij reeds vroeger in dit verhaal melding hebben gemaakt, en evenals deze baron, was hij ook nauw met Brian De Bois-Guilbert verbonden.
 
 <p>Onder de losbandige en ongeregelde mannen, die bij de Orde der Tempeliers zoo talrijk waren, was Albert van Templestowe geen der minsten; maar met dit verschil van den stouten Bois-Guilbert, dat hij zijne ondeugden en eerzucht onder den sluier van schijnheiligheid wist te bedekken, en uiterlijk de dweepzucht te veinzen, welke hij inwendig verachtte. Ware de aankomst van den Grootmeester niet zoo geheel onverwacht geweest, dan zou hij te Templestowe niets gezien hebben, dat eenige verslapping van tucht kon verraden. En ofschoon Albert Malvoisin door de verrassing eenigszins overrompeld werd, luisterde hij met zooveel eerbied en schijnbaar berouw naar de berispingen van zijn opperste, en haastte zich zoo zeer om alles wat deze afkeurde, te hervormen, en slaagde kortom zoo wel, om den schijn van klooster-vroomheid aan een gesticht te geven, dat nog kort te voren aan losbandigheid en vermaak was toegewijd geweest, dat Lukas <pb id=pb383 n=383>Beaumanoir eene betere meening van de zeden des Preceptors begon te koesteren, dan het eerste voorkomen der stichting hem had doen opvatten.
 
@@ -6013,7 +6013,7 @@
 </epigraph>
 
 
-<p rend="initial-width(122px) initial-height(108px) initial-image(images/id391.gif)">De rechtbank, opgericht voor het proces der onschuldige en ongelukkige Rebekka, besloeg het hoogere of bovenste einde van de groote zaal, dat wij reeds als de eereplaats beschreven hebben, bestemd om de aanzienlijkste bewoners of gasten te ontvangen.
+<p rend="initial-width(122px) initial-height(108px) initial-image(images/id391.png)">De rechtbank, opgericht voor het proces der onschuldige en ongelukkige Rebekka, besloeg het hoogere of bovenste einde van de groote zaal, dat wij reeds als de eereplaats beschreven hebben, bestemd om de aanzienlijkste bewoners of gasten te ontvangen.
 
 <p>Op een verheven gestoelte, vlak voor de aangeklaagde, zat de Grootmeester der Tempeliers, in een wijd, ruim, wit kleed, vol plooien, in zijn hand den mystieken staf houdende, waarop het zinnebeeld der Orde prijkte. Vóór hem stond eene tafel, waaraan twee schrijvers zaten, de kapelanen der Orde, wier plicht het was om hetgeen voorviel behoorlijk ten protocol te brengen. De zwarte kleeding, de geschoren kruinen en het nederig voorkomen van deze geestelijken, vormde een sterke tegenstelling met de krijgshaftige houding van de aanwezige ridders, die of in de Preceptorij huisvestten, of in gezelschap van hun Grootmeester daarheen gekomen waren. De Preceptoren, ten getale van vier, bezetten de zitplaatsen, welke minder hoog en wat verder naar achteren waren, dan die van hun opperhoofd, en de ridders, die geen hoogeren rang in de Orde bekleedden, zaten op nog lager banken, op denzelfden afstand van de Preceptoren, als dezen van den Grootmeester. Achter hen, maar nog altijd op het verhevene gedeelte der zaal, stonden de schildknapen der Orde, in witte kleederen van mindere fijnheid. De geheele vergadering had een deftig <pb id=pb392 n=392>voorkomen, en op het gelaat der ridders bespeurde men blijken van krijgshaftigen moed, vereenigd met al den ernst, die mannen van geestelijken stand past, en dien geen van hen in tegenwoordigheid van hun Grootmeester verzuimde aan te nemen.
 
@@ -6142,7 +6142,7 @@
 </epigraph>
 
 
-<p rend="initial-width(96px) initial-height(103px) initial-image(images/il406.gif)">Lucas Beaumanoir zelfs werd door het voorkomen van Rebekka getroffen. Hij was van natuur geen wreed of hardvochtig mensch, maar met eene van natuur koude geaardheid, en met een verheven, schoon verkeerd begrip van plicht, was zijn hart langzamerhand verhard geworden door zijn kloosterleven, door de hooge macht, welke hij uitoefende en door de gewaande noodzakelijkheid om het ongeloof ten onder te brengen, en de ketterij uit te roeien, welke verplichting naar hij meende, bijzonder op hem rustte. Zijn trekken verloren iets van hunne gewone strengheid toen hij het schoone wezen, dat voor hem stond, aanschouwde, alleen, zonder een enkelen vriend, en zich met zooveel verstand en moed verdedigende. Hij maakte tweemaal het teeken van het kruis, alsof hij de oorzaak wantrouwde van die ongewone weekheid van een hart, dat bij zulke gelegenheden gewoon was het staal van zijn zwaard in hardheid te overtreffen. Eindelijk zei hij:
+<p rend="initial-width(96px) initial-height(103px) initial-image(images/il406.png)">Lucas Beaumanoir zelfs werd door het voorkomen van Rebekka getroffen. Hij was van natuur geen wreed of hardvochtig mensch, maar met eene van natuur koude geaardheid, en met een verheven, schoon verkeerd begrip van plicht, was zijn hart langzamerhand verhard geworden door zijn kloosterleven, door de hooge macht, welke hij uitoefende en door de gewaande noodzakelijkheid om het ongeloof ten onder te brengen, en de ketterij uit te roeien, welke verplichting naar hij meende, bijzonder op hem rustte. Zijn trekken verloren iets van hunne gewone strengheid toen hij het schoone wezen, dat voor hem stond, aanschouwde, alleen, zonder een enkelen vriend, en zich met zooveel verstand en moed verdedigende. Hij maakte tweemaal het teeken van het kruis, alsof hij de oorzaak wantrouwde van die ongewone weekheid van een hart, dat bij zulke gelegenheden gewoon was het staal van zijn zwaard in hardheid te overtreffen. Eindelijk zei hij:
 
 <p>&ldquo;Meisje, zoo het medelijden dat ik voor u gevoel, ontstaat uit het gebruik van uwe booze kunsten, dan is uw schuld groot. Maar ik geloof eerder, dat het de zachtere gewaarwordingen der natuur zijn, die zich bedroeft, dat een zoo schoon uiterlijk zooveel slechtheid verbergt. Heb berouw, mijne dochter,&mdash;beken uwe tooverijen,&mdash;verzaak uw ongeloof,&mdash;omhels dit heilige teeken, en alles zal u nog hier en in de toekomst wèl gaan. In een klooster van de strengste orde, zult gij tijd hebben, om te bidden en boete te doen, en over <pb id=pb407 n=407>zulk berouw beklaagt men zich nooit. Doe dit en leef;&mdash;wat heeft Mozes&apos; wet voor u gedaan, dat gij er voor zoudt sterven?&rdquo;
 
@@ -6249,7 +6249,7 @@
 <p>&ldquo;Die honden van Joden!&rdquo; riep hij; &ldquo;ze storen zich niet meer aan een vrijen gildebroeder, dan alsof ik een geboren slaaf, een Turk, of een besneden Hebreër, gelijk zij zelven ware! Ze hadden mij toch wel een paar zilverstukken kunnen toewerpen. Ik was niet verplicht, om hun onheilig gekrabbel over te brengen en gevaar te loopen van betooverd te worden, zooals men mij zeide. En wat helpt mij het stukje goud, dat het meisje mij gegeven heeft, zoo de priester mij daarom bij de biecht op aanstaanden Paschen bestraft, en ik hem tweemaal zooveel moet geven om het weder goed te maken, en dan nog wellicht op den koop toe mijn leven lang de Joodsche bode heeten! Ik geloof, dat ik in ernst betooverd was, toen ik naast het meisje stond!&mdash;Maar dit was altijd het geval met Jood of Heiden, die in hare nabijheid kwam;&mdash;niemand kon blijven staan als ze een boodschap te doen had,&mdash;en toch, als ik aan haar denk, dan wilde ik wel mijn werkplaats en werktuigen er bij geven, om haar het leven te redden!&rdquo;
 
 
-<p><figure id=o414 rend="image(images/o414.gif)">
+<p><figure id=o414 rend="image(images/o414.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -6270,7 +6270,7 @@
 </epigraph>
 
 
-<p rend="initial-width(116px) initial-height(116px) initial-image(images/id415.gif)">De avond schemerde op denzelfden dag, waarop Rebekka&apos;s proces, als men het zoo noemen kan, had plaats gehad, toen er zachtjes aan de deur van hare gevangenis getikt werd. Dit stoorde de bewoonster niet, die juist bezig was met het avondgebed te verrichten, dat haar godsdienst voorschreef, en dat met een lofzang eindigde, welken wij gewaagd hebben aldus te vertalen:
+<p rend="initial-width(116px) initial-height(116px) initial-image(images/id415.png)">De avond schemerde op denzelfden dag, waarop Rebekka&apos;s proces, als men het zoo noemen kan, had plaats gehad, toen er zachtjes aan de deur van hare gevangenis getikt werd. Dit stoorde de bewoonster niet, die juist bezig was met het avondgebed te verrichten, dat haar godsdienst voorschreef, en dat met een lofzang eindigde, welken wij gewaagd hebben aldus te vertalen:
 
 <lg>
     <l>Toen &apos;t uitverkoren volk weleer
@@ -6474,7 +6474,7 @@
 </epigraph>
 
 
-<p rend="initial-width(100px) initial-height(101px) initial-image(images/it428.gif)">Toen de Zwarte Ridder,&mdash;want het is noodig zijn lotgevallen na te gaan,&mdash;den gerechtseik van den grootmoedigen roover verliet, richtte hij zijn weg regelrecht naar een naburig klooster van kleinen omvang en geringe inkomsten, de Priorij van St. Botolph, waarheen de gewonde Ivanhoe, na het innemen van het kasteel, onder leiding van den getrouwen Gurth en den edelmoedigen Wamba gebracht werd. Het is voor het oogenblik onnoodig te verhalen hetgeen er inmiddels tusschen Wilfrid en zijn bevrijder voorviel; genoeg is het te zeggen, dat, na lange en ernstige beraadslagingen, de Prior naar verscheidene kanten boden uitzond, en dat de Zwarte Ridder den volgenden morgen gereed stond om op reis te gaan, vergezeld door den nar Wamba, die hem tot gids zou verstrekken.
+<p rend="initial-width(100px) initial-height(101px) initial-image(images/it428.png)">Toen de Zwarte Ridder,&mdash;want het is noodig zijn lotgevallen na te gaan,&mdash;den gerechtseik van den grootmoedigen roover verliet, richtte hij zijn weg regelrecht naar een naburig klooster van kleinen omvang en geringe inkomsten, de Priorij van St. Botolph, waarheen de gewonde Ivanhoe, na het innemen van het kasteel, onder leiding van den getrouwen Gurth en den edelmoedigen Wamba gebracht werd. Het is voor het oogenblik onnoodig te verhalen hetgeen er inmiddels tusschen Wilfrid en zijn bevrijder voorviel; genoeg is het te zeggen, dat, na lange en ernstige beraadslagingen, de Prior naar verscheidene kanten boden uitzond, en dat de Zwarte Ridder den volgenden morgen gereed stond om op reis te gaan, vergezeld door den nar Wamba, die hem tot gids zou verstrekken.
 
 <p>&ldquo;Wij zullen elkander op Coningsburgh, het kasteel van den overleden Athelstane, wederzien,&rdquo; zei hij tot Ivanhoe, &ldquo;uw vader viert aldaar het lijkfeest van zijn edelen bloedverwant. Ik wilde gaarne uwe Saksische verwanten bij elkander zien, ridder Wilfrid, en hen wat beter leeren kennen. Dáár zal het ook mijne taak zijn, u met uw vader te verzoenen.&rdquo;
 
@@ -6824,7 +6824,7 @@
 <p>Tegelijkertijd verschenen er nog twee nieuwe aankomelingen op het tooneel.
 
 
-<p><figure id=o446 rend="image(images/o446.gif)">
+<p><figure id=o446 rend="image(images/o446.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -6850,7 +6850,7 @@
 </epigraph>
 
 
-<p rend="initial-width(122px) initial-height(107px) initial-image(images/id225.gif)">De nieuwe aankomelingen waren Wilfrid van Ivanhoe, op het paard van den Prior van Botolph, en Gurth, die den ridder op diens strijdros vergezelde. De verbazing van Ivanhoe was grenzenloos, toen hij zijn meester met bloed bespat zag, terwijl zes of zeven gesneuvelden op het kleine grasplein uitgestrekt lagen, waar het gevecht plaats had gehad. Niet minder verwonderd was hij, Richard omringd te zien van zoovele menschen, die vogelvrijverklaarden, en dus een gevaarlijk gevolg voor een Vorst schenen te zijn. Hij wist niet, of hij den Koning als den Zwarten Ridder, of op een andere wijze aanspreken zou. Richard bemerkte zijn verlegenheid.
+<p rend="initial-width(122px) initial-height(107px) initial-image(images/id225.png)">De nieuwe aankomelingen waren Wilfrid van Ivanhoe, op het paard van den Prior van Botolph, en Gurth, die den ridder op diens strijdros vergezelde. De verbazing van Ivanhoe was grenzenloos, toen hij zijn meester met bloed bespat zag, terwijl zes of zeven gesneuvelden op het kleine grasplein uitgestrekt lagen, waar het gevecht plaats had gehad. Niet minder verwonderd was hij, Richard omringd te zien van zoovele menschen, die vogelvrijverklaarden, en dus een gevaarlijk gevolg voor een Vorst schenen te zijn. Hij wist niet, of hij den Koning als den Zwarten Ridder, of op een andere wijze aanspreken zou. Richard bemerkte zijn verlegenheid.
 
 <p>&ldquo;Vrees niet, Wilfrid,&rdquo; zei hij, &ldquo;om Richard Plantagenet als zoodanig aan te spreken, daar gij hem in het gezelschap van getrouwe Engelsche onderdanen ziet, ofschoon zij mogelijk door hun vurig Engelsch bloed een weinig van den rechten weg afgedwaald zijn.&rdquo;
 
@@ -6939,7 +6939,7 @@
 <p>Dit was het tooneel op het slotplein van Coningsburgh, toen Richard met zijn gevolg optrad. De huishofmeester, die zich niet verwaardigde om acht te slaan op de groepen van mindere gasten, welke gestadig in- en uitgingen, ten minste niet meer dan noodig was om de orde te handhaven, werd door het voorkomen van den Koning en Ivanhoe getroffen; maar vooral daar hij zich verbeeldde, dat de trekken van den laatste hem bekend waren. Buitendien was de verschijning van twee ridders, zooals zij door hun kleeding bleken te zijn, een zeldzame gebeurtenis bij eene Saksische plechtigheid, en kon niet anders dan als een soort van eer voor den overledene en zijne familie beschouwd worden. In zijn zwart gewaad en met zijn witten <corr sic=ambtstaf>ambtsstaf</corr> in de hand, maakte dus deze gewichtige personage ruimte door de bonte vergadering van gasten, en geleidde Richard en Ivanhoe naar den ingang van den toren. Gurth en Wamba vonden spoedig kennissen op het plein, en waagden het niet verder door te dringen, tot hunne tegenwoordigheid gevorderd werd.
 
 
-<p><figure id=o456 rend="image(images/o456.gif)">
+<p><figure id=o456 rend="image(images/o456.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -6964,7 +6964,7 @@
 </epigraph>
 
 
-<p rend="initial-width(122px) initial-height(107px) initial-image(images/id457.gif)">De ingang van den grooten toren van het kasteel van Coningsburgh is zeer eigenaardig, en getuigt van de ruwe eenvoudigheid der vroege tijden, toen het opgericht werd. Een trap, zoo steil en smal, dat ze bijna loodrecht staat, leidt naar een laag portaal in de zuidzijde van den toren, waardoor de nieuwsgierige oudheidkundige nog toegang krijgen kan tot eene tweede kleine trap, welke in den dikken hoofdmuur gemaakt was, en die naar de derde verdieping van het gebouw voerde.&mdash;De beide benedenste verdiepingen zijn gevangenissen, of gewelven, welke geen andere lucht of licht krijgen dan door een vierkant gat in de derde verdieping, met welke zij door een ladder gemeenschap schijnen gehad te hebben. Tot de bovenste vertrekken in den toren, die in het geheel uit vier verdiepingen bestaat, komt men langs trappen, in de buitenmuren aangebracht.
+<p rend="initial-width(122px) initial-height(107px) initial-image(images/id457.png)">De ingang van den grooten toren van het kasteel van Coningsburgh is zeer eigenaardig, en getuigt van de ruwe eenvoudigheid der vroege tijden, toen het opgericht werd. Een trap, zoo steil en smal, dat ze bijna loodrecht staat, leidt naar een laag portaal in de zuidzijde van den toren, waardoor de nieuwsgierige oudheidkundige nog toegang krijgen kan tot eene tweede kleine trap, welke in den dikken hoofdmuur gemaakt was, en die naar de derde verdieping van het gebouw voerde.&mdash;De beide benedenste verdiepingen zijn gevangenissen, of gewelven, welke geen andere lucht of licht krijgen dan door een vierkant gat in de derde verdieping, met welke zij door een ladder gemeenschap schijnen gehad te hebben. Tot de bovenste vertrekken in den toren, die in het geheel uit vier verdiepingen bestaat, komt men langs trappen, in de buitenmuren aangebracht.
 
 <p>Langs dezen moeielijken ingang werd de goede Koning Richard, gevolgd door zijn getrouwen Ivanhoe, in het groote vertrek, dat de geheele derde verdieping beslaat, gebracht. De laatste had den tijd om zijn gezicht in zijn mantel te wikkelen, daar hij het beter vond, zich niet aan zijn vader te vertoonen, eer de Koning hem een teeken zou geven. Er zaten in dit vertrek rondom een groote eiken tafel een twaalftal van de doorluchtige stamhouders van de Saksische familiën der aangrenzende graafschappen. Het waren allen oude, of ten minste bejaarde mannen; want de jongeren hadden, tot groot verdriet der <pb id=pb458 n=458>ouders, evenals Ivanhoe, vele der scheidsmuren omvergeworpen, welke sedert eene halve eeuw de Normandische overwinnaars van de overwonnen Saksers gescheiden hadden. De terneêrgeslagen en droevige blikken van deze eerwaardige mannen, hunne stilte en bedroefde houding, leverde eene sterke tegenstelling met de lichtvaardigheid der gasten buiten het kasteel. Hunne grijze lokken en lange, zware baarden en hunne ouderwetsche kleederen en ruime zwarte mantels pasten goed bij het zonderling en ruw vertrek, waarin zij zaten, en gaven hun het voorkomen van eene verzameling der oude aanbidders van Wodan, die in het leven teruggeroepen waren, om te treuren over het verval van hun volksroem.
 
@@ -7145,7 +7145,7 @@
 <p>&ldquo;Bij mijn ziel!&rdquo; riep Athelstane, &ldquo;het is zeker, dat Zernebock gedurende mijne afwezigheid mijn kasteel betooverd heeft! Ik keer in mijn <pb id=pb470 n=470>lijkgewaad terug, als uit het graf opgestaan, en ieder, met wien ik spreek, verdwijnt, zoodra hij mijn stem hoort!&mdash;Maar het baat niet er over te praten! Komt, vrienden, gij, die nog overgebleven zijt, volgt mij naar de eetzaal, eer er nog meer van ons verdwijnen.&mdash;Die zaal is, vertrouw ik, nog al tamelijk wel bezet, gelijk bij de lijkplechtigheid van een oud-Saksischen edelman betaamt; en zoo wij nog langer dralen, wie weet of de duivel niet met het avondeten wegvliegt!&rdquo;
 
 
-<p><figure id=o470 rend="image(images/o470.gif)">
+<p><figure id=o470 rend="image(images/o470.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -7168,7 +7168,7 @@
 </epigraph>
 
 
-<p rend="initial-width(100px) initial-height(99px) initial-image(images/io471.gif)">Ons verhaal keert nu terug tot den omtrek van het kasteel of Preceptorij van Templestowe, omtrent het uur toen het lot beslissen zou over het leven of den dood van Rebekka. Het was een tooneel van drukte en leven, alsof de bewoners van de geheele buurt op een landelijk feest verzameld waren. Maar de begeerte om bloed en dood te zien, is niet alleen eigen aan die duistere eeuwen; ofschoon men toen door de zwaardvechtersoefeningen van tweestrijd en toernooi gewoon was aan het bloedig tooneel van dappere mannen door elkanders hand te zien vallen. Zelfs in onze dagen, nu men een hooger begrip van zedelijkheid heeft, verzamelen eene terechtstelling, eene vechtpartij, een oploop, of eene bijeenkomst van radicale hervormers, tallooze toeschouwers, met groot gevaar voor hen, die zelven weinig ander belang daarbij hebben, dan om te zien hoe het toegaat, en of de helden van den dag, van welken aard ook, hun verkregen roem waardig zijn.
+<p rend="initial-width(100px) initial-height(99px) initial-image(images/io471.png)">Ons verhaal keert nu terug tot den omtrek van het kasteel of Preceptorij van Templestowe, omtrent het uur toen het lot beslissen zou over het leven of den dood van Rebekka. Het was een tooneel van drukte en leven, alsof de bewoners van de geheele buurt op een landelijk feest verzameld waren. Maar de begeerte om bloed en dood te zien, is niet alleen eigen aan die duistere eeuwen; ofschoon men toen door de zwaardvechtersoefeningen van tweestrijd en toernooi gewoon was aan het bloedig tooneel van dappere mannen door elkanders hand te zien vallen. Zelfs in onze dagen, nu men een hooger begrip van zedelijkheid heeft, verzamelen eene terechtstelling, eene vechtpartij, een oploop, of eene bijeenkomst van radicale hervormers, tallooze toeschouwers, met groot gevaar voor hen, die zelven weinig ander belang daarbij hebben, dan om te zien hoe het toegaat, en of de helden van den dag, van welken aard ook, hun verkregen roem waardig zijn.
 
 <p>De blikken van eene zeer aanzienlijke menigte waren dus op de poort van de Preceptorij van Templestowe gevestigd om den optocht te zien, terwijl een nog grooter aantal reeds het toernooiplein omringde, dat tot het kasteel behoorde. Dit plein lag dicht bij de Preceptorij, en was met zorg ingericht voor krijgshaftige en ridderlijke oefeningen. Het besloeg de bovenste vlakte van een zacht hellenden heuvel, was zorgvuldig met palissaden omgeven, en daar de Tempeliers gaarne toeschouwers hadden om getuigen te zijn van hunne behendigheid <pb id=pb472 n=472>in het gebruik der wapens, had men er talrijke galerijen en banken ten behoeve der menigte opgericht.
 
@@ -7347,7 +7347,7 @@
 <p>&ldquo;Dit is inderdaad een Godsgericht!&rdquo; zei de Grootmeester, naar boven ziende:&mdash;&ldquo;<hi lang=la>Fiat voluntas tua!</hi>&rdquo;
 
 
-<p><figure id=o483 rend="image(images/o483.gif)">
+<p><figure id=o483 rend="image(images/o483.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
@@ -7368,7 +7368,7 @@
 </epigraph>
 
 
-<p rend="initial-width(98px) initial-height(101px) initial-image(images/it484.gif)">Toen de eerste oogenblikken van verbazing voorbij waren, vroeg Wilfrid van Ivanhoe aan den Grootmeester, als kamprechter, of hij zijn plicht in het gevecht manhaftig en eerlijk gedaan had?
+<p rend="initial-width(98px) initial-height(101px) initial-image(images/it484.png)">Toen de eerste oogenblikken van verbazing voorbij waren, vroeg Wilfrid van Ivanhoe aan den Grootmeester, als kamprechter, of hij zijn plicht in het gevecht manhaftig en eerlijk gedaan had?
 
 <p>&ldquo;Manhaftig en eerlijk,&rdquo; antwoordde de Grootmeester; &ldquo;ik verklaar het meisje voor vrij en onschuldig!&mdash;De wapens en het lijk van den overleden ridder zijn ter beschikking des overwinnaars.&rdquo;
 
@@ -7622,7 +7622,7 @@
 
 
 
-<p><figure id=o501 rend="image(images/o224.gif)">
+<p><figure id=o501 rend="image(images/o224.png)">
 <figDesc>Ornament.</figDesc>
 </figure>
 
